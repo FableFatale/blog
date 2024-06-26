@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:2160/zh-cn/</loc>
+    <loc>990325.xyz/zh-cn/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:2160/"
+      href="990325.xyz/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="//localhost:2160/zh-cn/"
+      href="990325.xyz/zh-cn/"
     />
   </url>
 </urlset>

@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:2160/posts/</loc>
+    <loc>990325.xyz/posts/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:2160/</loc>
+    <loc>990325.xyz/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="//localhost:2160/zh-cn/"
+      href="990325.xyz/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:2160/"
+      href="990325.xyz/"
     />
   </url>
   <url>
-    <loc>//localhost:2160/posts/prompt-zeroshot/</loc>
+    <loc>990325.xyz/posts/prompt-zeroshot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:2160/posts/first/</loc>
+    <loc>990325.xyz/posts/first/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
