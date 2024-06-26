@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Ruiqiang Yu</title>
-    <link>//localhost:3085/series/</link>
-    <description>Recent content in Series on Ruiqiang Yu</description>
+    <title>Series on Rafael Blue&#39;s Blog</title>
+    <link>//localhost:2160/series/</link>
+    <description>Recent content in Series on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright> © 2024 by Ruiqiang Yu is licensed under Creative Commons Attribution-NonCommercial 4.0 International</copyright>
-    <atom:link href="//localhost:3085/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
+    <atom:link href="//localhost:2160/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
