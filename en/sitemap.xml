@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>990325.xyz/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>990325.xyz/</loc>
+    <loc>/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="990325.xyz/zh-cn/"
+      href="/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="990325.xyz/"
+      href="/"
     />
   </url>
   <url>
-    <loc>990325.xyz/posts/prompt-zeroshot/</loc>
+    <loc>/posts/prompt-zeroshot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>990325.xyz/posts/first/</loc>
+    <loc>/posts/first/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

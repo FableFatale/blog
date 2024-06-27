@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>990325.xyz/zh-cn/</loc>
+    <loc>/zh-cn/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="990325.xyz/"
+      href="/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="990325.xyz/zh-cn/"
+      href="/zh-cn/"
     />
   </url>
 </urlset>
