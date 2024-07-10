@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/zh-cn/posts/</loc>
+    <loc>http://localhost:2420/zh-cn/posts/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/posts/"
+      href="http://localhost:2420/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/posts/"
+      href="http://localhost:2420/zh-cn/posts/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
+    <loc>http://localhost:2420/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/zh-cn/</loc>
+    <loc>http://localhost:2420/zh-cn/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="http://localhost:2420/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/"
+      href="http://localhost:2420/zh-cn/"
     />
   </url>
 </urlset>
