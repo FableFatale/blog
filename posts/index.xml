@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4845/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chain-of-Thought Prompt</title>
-      <link>http://localhost:4845/posts/cot-shot-/</link>
+      <link>http://localhost:4845/posts/cot-shot/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4845/posts/cot-shot-/</guid>
+      <guid>http://localhost:4845/posts/cot-shot/</guid>
       <description>Cot Prompt on 2024/7/14</description>
       
     </item>
@@ -25,6 +25,16 @@
       
       <guid>http://localhost:4845/posts/llm-parameters/</guid>
       <description>LLM&amp;rsquo;s parameters study</description>
+      
+    </item>
+    
+    <item>
+      <title>Self-Consistency</title>
+      <link>http://localhost:4845/posts/self-consistency/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4845/posts/self-consistency/</guid>
+      <description>Self-Consistency on 2024/7/14</description>
       
     </item>
     
