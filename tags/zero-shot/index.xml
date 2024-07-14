@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zero-Shot on Rafael Blue&#39;s Blog</title>
-    <link>http://localhost:4845/tags/zero-shot/</link>
+    <link>http://localhost:13815/tags/zero-shot/</link>
     <description>Recent content in Zero-Shot on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4845/tags/zero-shot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:13815/tags/zero-shot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zero-Shot Prompt</title>
-      <link>http://localhost:4845/posts/prompt-zeroshot/</link>
+      <link>http://localhost:13815/posts/prompt-zeroshot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4845/posts/prompt-zeroshot/</guid>
+      <guid>http://localhost:13815/posts/prompt-zeroshot/</guid>
       <description>This is my first post on my site on 2024/6/26</description>
       
     </item>
