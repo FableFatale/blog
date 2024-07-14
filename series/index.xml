@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Rafael Blue&#39;s Blog</title>
-    <link>http://localhost:13815/series/</link>
+    <link>https://990325.xyz/series/</link>
     <description>Recent content in Series on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <atom:link href="http://localhost:13815/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://990325.xyz/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

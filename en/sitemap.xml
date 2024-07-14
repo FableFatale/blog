@@ -3,210 +3,210 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:13815/posts/cot-shot-/</loc>
+    <loc>https://990325.xyz/posts/cot-shot-/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/cot/</loc>
+    <loc>https://990325.xyz/tags/cot/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/cs/</loc>
+    <loc>https://990325.xyz/tags/cs/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/gpt/</loc>
+    <loc>https://990325.xyz/tags/gpt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/llm/</loc>
+    <loc>https://990325.xyz/tags/llm/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/posts/llm-parameters/</loc>
+    <loc>https://990325.xyz/posts/llm-parameters/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/posts/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:13815/zh-cn/posts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:13815/posts/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:13815/tags/prompt/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:13815/</loc>
+    <loc>https://990325.xyz/posts/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:13815/zh-cn/"
+      href="https://990325.xyz/zh-cn/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:13815/"
+      href="https://990325.xyz/posts/"
     />
   </url>
   <url>
-    <loc>http://localhost:13815/tags/self-consistency/</loc>
+    <loc>https://990325.xyz/tags/prompt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/posts/self-consistency/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:13815/tags/skills/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:13815/tags/</loc>
+    <loc>https://990325.xyz/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:13815/zh-cn/tags/"
+      href="https://990325.xyz/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:13815/tags/"
+      href="https://990325.xyz/"
     />
   </url>
   <url>
-    <loc>http://localhost:13815/tags/ai/</loc>
+    <loc>https://990325.xyz/tags/self-consistency/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/posts/self-consistency/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/tags/skills/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/tags/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://990325.xyz/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://990325.xyz/tags/"
+    />
+  </url>
+  <url>
+    <loc>https://990325.xyz/tags/ai/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/flowchat/</loc>
+    <loc>https://990325.xyz/tags/flowchat/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/posts/get-or-update--a-flow-chat---with-ai-/</loc>
+    <loc>https://990325.xyz/posts/get-or-update--a-flow-chat---with-ai-/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/few-shot/</loc>
+    <loc>https://990325.xyz/tags/few-shot/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/posts/few-shot/</loc>
+    <loc>https://990325.xyz/posts/few-shot/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/zero-shot/</loc>
+    <loc>https://990325.xyz/tags/zero-shot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/posts/prompt-zeroshot/</loc>
+    <loc>https://990325.xyz/posts/prompt-zeroshot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/posts/first/</loc>
+    <loc>https://990325.xyz/posts/first/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/tags/space/</loc>
+    <loc>https://990325.xyz/tags/space/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:13815/authors/</loc>
+    <loc>https://990325.xyz/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:13815/zh-cn/authors/"
+      href="https://990325.xyz/zh-cn/authors/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:13815/authors/"
+      href="https://990325.xyz/authors/"
     />
   </url>
   <url>
-    <loc>http://localhost:13815/categories/</loc>
+    <loc>https://990325.xyz/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:13815/zh-cn/categories/"
+      href="https://990325.xyz/zh-cn/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:13815/categories/"
+      href="https://990325.xyz/categories/"
     />
   </url>
   <url>
-    <loc>http://localhost:13815/series/</loc>
+    <loc>https://990325.xyz/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:13815/zh-cn/series/"
+      href="https://990325.xyz/zh-cn/series/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:13815/series/"
+      href="https://990325.xyz/series/"
     />
   </url>
 </urlset>

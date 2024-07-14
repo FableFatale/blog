@@ -2,78 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Rafael Blue&#39;s Blog</title>
-    <link>http://localhost:13815/posts/</link>
+    <link>https://990325.xyz/posts/</link>
     <description>Recent content in Posts on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:13815/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chain-of-Thought Prompt</title>
-      <link>http://localhost:13815/posts/cot-shot-/</link>
+      <link>https://990325.xyz/posts/cot-shot-/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:13815/posts/cot-shot-/</guid>
+      <guid>https://990325.xyz/posts/cot-shot-/</guid>
       <description>Cot Prompt on 2024/7/14</description>
       
     </item>
     
     <item>
       <title>LLM Parameters</title>
-      <link>http://localhost:13815/posts/llm-parameters/</link>
+      <link>https://990325.xyz/posts/llm-parameters/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:13815/posts/llm-parameters/</guid>
+      <guid>https://990325.xyz/posts/llm-parameters/</guid>
       <description>LLM&amp;rsquo;s parameters study</description>
       
     </item>
     
     <item>
       <title>Self-Consistency</title>
-      <link>http://localhost:13815/posts/self-consistency/</link>
+      <link>https://990325.xyz/posts/self-consistency/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:13815/posts/self-consistency/</guid>
+      <guid>https://990325.xyz/posts/self-consistency/</guid>
       <description>Self-Consistency on 2024/7/14</description>
       
     </item>
     
     <item>
       <title>With AI to get a nice flow chat</title>
-      <link>http://localhost:13815/posts/get-or-update--a-flow-chat---with-ai-/</link>
+      <link>https://990325.xyz/posts/get-or-update--a-flow-chat---with-ai-/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:13815/posts/get-or-update--a-flow-chat---with-ai-/</guid>
+      <guid>https://990325.xyz/posts/get-or-update--a-flow-chat---with-ai-/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Few-Shot Prompt</title>
-      <link>http://localhost:13815/posts/few-shot/</link>
+      <link>https://990325.xyz/posts/few-shot/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:13815/posts/few-shot/</guid>
+      <guid>https://990325.xyz/posts/few-shot/</guid>
       <description>This is my first post on my site on 2024/6/26</description>
       
     </item>
     
     <item>
       <title>Zero-Shot Prompt</title>
-      <link>http://localhost:13815/posts/prompt-zeroshot/</link>
+      <link>https://990325.xyz/posts/prompt-zeroshot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:13815/posts/prompt-zeroshot/</guid>
+      <guid>https://990325.xyz/posts/prompt-zeroshot/</guid>
       <description>This is my first post on my site on 2024/6/26</description>
       
     </item>
     
     <item>
       <title>My first post</title>
-      <link>http://localhost:13815/posts/first/</link>
+      <link>https://990325.xyz/posts/first/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:13815/posts/first/</guid>
+      <guid>https://990325.xyz/posts/first/</guid>
       <description>This is my first post on my site on 2024/6/23</description>
       
     </item>
