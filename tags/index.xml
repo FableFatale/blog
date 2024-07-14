@@ -39,11 +39,41 @@
     </item>
     
     <item>
-      <title>Flowchat，skills,cs,AI</title>
-      <link>http://localhost:1313/tags/flowchatskillscsai/</link>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/flowchatskillscsai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cs</title>
+      <link>http://localhost:1313/tags/cs/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Flowchat</title>
+      <link>http://localhost:1313/tags/flowchat/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/flowchat/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>http://localhost:1313/tags/skills/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/skills/</guid>
       <description></description>
       
     </item>
