@@ -2,48 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rafael Blue&#39;s Blog</title>
-    <link>https://990325.xyz/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LLM,Prompt,Gpt</title>
-      <link>https://990325.xyz/tags/llmpromptgpt/</link>
+      <title>Gpt</title>
+      <link>http://localhost:1313/tags/gpt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/llmpromptgpt/</guid>
+      <guid>http://localhost:1313/tags/gpt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/tags/llm/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/llm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Prompt</title>
+      <link>http://localhost:1313/tags/prompt/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/prompt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Flowchat，skills,cs,AI</title>
-      <link>https://990325.xyz/tags/flowchatskillscsai/</link>
+      <link>http://localhost:1313/tags/flowchatskillscsai/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/flowchatskillscsai/</guid>
+      <guid>http://localhost:1313/tags/flowchatskillscsai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prompt，skills,cs,zero-Shot</title>
-      <link>https://990325.xyz/tags/promptskillscszero-shot/</link>
+      <link>http://localhost:1313/tags/promptskillscszero-shot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/promptskillscszero-shot/</guid>
+      <guid>http://localhost:1313/tags/promptskillscszero-shot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Space</title>
-      <link>https://990325.xyz/tags/space/</link>
+      <link>http://localhost:1313/tags/space/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/space/</guid>
+      <guid>http://localhost:1313/tags/space/</guid>
       <description></description>
       
     </item>
