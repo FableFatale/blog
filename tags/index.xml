@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rafael Blue&#39;s Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://990325.xyz/tags/</link>
     <description>Recent content in Tags on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gpt</title>
-      <link>http://localhost:1313/tags/gpt/</link>
+      <link>https://990325.xyz/tags/gpt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/gpt/</guid>
+      <guid>https://990325.xyz/tags/gpt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>http://localhost:1313/tags/llm/</link>
+      <link>https://990325.xyz/tags/llm/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/llm/</guid>
+      <guid>https://990325.xyz/tags/llm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prompt</title>
-      <link>http://localhost:1313/tags/prompt/</link>
+      <link>https://990325.xyz/tags/prompt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/prompt/</guid>
+      <guid>https://990325.xyz/tags/prompt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://990325.xyz/tags/ai/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://990325.xyz/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cs</title>
-      <link>http://localhost:1313/tags/cs/</link>
+      <link>https://990325.xyz/tags/cs/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cs/</guid>
+      <guid>https://990325.xyz/tags/cs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Flowchat</title>
-      <link>http://localhost:1313/tags/flowchat/</link>
+      <link>https://990325.xyz/tags/flowchat/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/flowchat/</guid>
+      <guid>https://990325.xyz/tags/flowchat/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Skills</title>
-      <link>http://localhost:1313/tags/skills/</link>
+      <link>https://990325.xyz/tags/skills/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/skills/</guid>
+      <guid>https://990325.xyz/tags/skills/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Prompt，skills,cs,zero-Shot</title>
-      <link>http://localhost:1313/tags/promptskillscszero-shot/</link>
+      <title>Zero-Shot</title>
+      <link>https://990325.xyz/tags/zero-shot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/promptskillscszero-shot/</guid>
+      <guid>https://990325.xyz/tags/zero-shot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Space</title>
-      <link>http://localhost:1313/tags/space/</link>
+      <link>https://990325.xyz/tags/space/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/space/</guid>
+      <guid>https://990325.xyz/tags/space/</guid>
       <description></description>
       
     </item>
