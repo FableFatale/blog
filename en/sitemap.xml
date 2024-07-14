@@ -3,210 +3,210 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1761/posts/cot-shot-/</loc>
+    <loc>http://localhost:13815/posts/cot-shot-/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/cot/</loc>
+    <loc>http://localhost:13815/tags/cot/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/cs/</loc>
+    <loc>http://localhost:13815/tags/cs/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/gpt/</loc>
+    <loc>http://localhost:13815/tags/gpt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/llm/</loc>
+    <loc>http://localhost:13815/tags/llm/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/posts/llm-parameters/</loc>
+    <loc>http://localhost:13815/posts/llm-parameters/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/posts/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="http://localhost:1761/zh-cn/posts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1761/posts/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1761/tags/prompt/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1761/</loc>
+    <loc>http://localhost:13815/posts/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1761/zh-cn/"
+      href="http://localhost:13815/zh-cn/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1761/"
+      href="http://localhost:13815/posts/"
     />
   </url>
   <url>
-    <loc>http://localhost:1761/tags/self-consistency/</loc>
+    <loc>http://localhost:13815/tags/prompt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/posts/self-consistency/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1761/tags/skills/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1761/tags/</loc>
+    <loc>http://localhost:13815/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1761/zh-cn/tags/"
+      href="http://localhost:13815/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1761/tags/"
+      href="http://localhost:13815/"
     />
   </url>
   <url>
-    <loc>http://localhost:1761/tags/ai/</loc>
+    <loc>http://localhost:13815/tags/self-consistency/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:13815/posts/self-consistency/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:13815/tags/skills/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:13815/tags/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:13815/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:13815/tags/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:13815/tags/ai/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/flowchat/</loc>
+    <loc>http://localhost:13815/tags/flowchat/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/posts/get-or-update--a-flow-chat---with-ai-/</loc>
+    <loc>http://localhost:13815/posts/get-or-update--a-flow-chat---with-ai-/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/few-shot/</loc>
+    <loc>http://localhost:13815/tags/few-shot/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/posts/few-shot/</loc>
+    <loc>http://localhost:13815/posts/few-shot/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/zero-shot/</loc>
+    <loc>http://localhost:13815/tags/zero-shot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/posts/prompt-zeroshot/</loc>
+    <loc>http://localhost:13815/posts/prompt-zeroshot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/posts/first/</loc>
+    <loc>http://localhost:13815/posts/first/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/tags/space/</loc>
+    <loc>http://localhost:13815/tags/space/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1761/authors/</loc>
+    <loc>http://localhost:13815/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1761/zh-cn/authors/"
+      href="http://localhost:13815/zh-cn/authors/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1761/authors/"
+      href="http://localhost:13815/authors/"
     />
   </url>
   <url>
-    <loc>http://localhost:1761/categories/</loc>
+    <loc>http://localhost:13815/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1761/zh-cn/categories/"
+      href="http://localhost:13815/zh-cn/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1761/categories/"
+      href="http://localhost:13815/categories/"
     />
   </url>
   <url>
-    <loc>http://localhost:1761/series/</loc>
+    <loc>http://localhost:13815/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1761/zh-cn/series/"
+      href="http://localhost:13815/zh-cn/series/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1761/series/"
+      href="http://localhost:13815/series/"
     />
   </url>
 </urlset>
