@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rafael Blue&#39;s Blog</title>
-    <link>https://990325.xyz/tags/</link>
+    <link>http://localhost:1915/tags/</link>
     <description>Recent content in Tags on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1915/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gpt</title>
-      <link>https://990325.xyz/tags/gpt/</link>
+      <link>http://localhost:1915/tags/gpt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/gpt/</guid>
+      <guid>http://localhost:1915/tags/gpt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>https://990325.xyz/tags/llm/</link>
+      <link>http://localhost:1915/tags/llm/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/llm/</guid>
+      <guid>http://localhost:1915/tags/llm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prompt</title>
-      <link>https://990325.xyz/tags/prompt/</link>
+      <link>http://localhost:1915/tags/prompt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/prompt/</guid>
+      <guid>http://localhost:1915/tags/prompt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI</title>
-      <link>https://990325.xyz/tags/ai/</link>
+      <link>http://localhost:1915/tags/ai/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/ai/</guid>
+      <guid>http://localhost:1915/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cs</title>
-      <link>https://990325.xyz/tags/cs/</link>
+      <link>http://localhost:1915/tags/cs/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/cs/</guid>
+      <guid>http://localhost:1915/tags/cs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Flowchat</title>
-      <link>https://990325.xyz/tags/flowchat/</link>
+      <link>http://localhost:1915/tags/flowchat/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/flowchat/</guid>
+      <guid>http://localhost:1915/tags/flowchat/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Skills</title>
-      <link>https://990325.xyz/tags/skills/</link>
+      <link>http://localhost:1915/tags/skills/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/skills/</guid>
+      <guid>http://localhost:1915/tags/skills/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Zero-Shot</title>
-      <link>https://990325.xyz/tags/zero-shot/</link>
+      <link>http://localhost:1915/tags/zero-shot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/zero-shot/</guid>
+      <guid>http://localhost:1915/tags/zero-shot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Space</title>
-      <link>https://990325.xyz/tags/space/</link>
+      <link>http://localhost:1915/tags/space/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/space/</guid>
+      <guid>http://localhost:1915/tags/space/</guid>
       <description></description>
       
     </item>

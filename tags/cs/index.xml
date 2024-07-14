@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cs on Rafael Blue&#39;s Blog</title>
-    <link>https://990325.xyz/tags/cs/</link>
+    <link>http://localhost:1915/tags/cs/</link>
     <description>Recent content in Cs on Rafael Blue&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1915/tags/cs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>With AI to get a nice flow chat</title>
-      <link>https://990325.xyz/posts/get-or-update--a-flow-chat---with-ai-/</link>
+      <link>http://localhost:1915/posts/get-or-update--a-flow-chat---with-ai-/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/posts/get-or-update--a-flow-chat---with-ai-/</guid>
+      <guid>http://localhost:1915/posts/get-or-update--a-flow-chat---with-ai-/</guid>
       <description>How can you get or update a flow chat with AI</description>
       
     </item>
     
     <item>
       <title>Zero-Shot Prompt</title>
-      <link>https://990325.xyz/posts/prompt-zeroshot/</link>
+      <link>http://localhost:1915/posts/prompt-zeroshot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/posts/prompt-zeroshot/</guid>
+      <guid>http://localhost:1915/posts/prompt-zeroshot/</guid>
       <description>This is my first post on my site on 2024/6/26</description>
       
     </item>
