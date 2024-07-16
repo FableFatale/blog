@@ -3,108 +3,108 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:11735/zh-cn/posts/</loc>
+    <loc>https://990325.xyz/zh-cn/posts/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:11735/posts/"
+      href="https://990325.xyz/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:11735/zh-cn/posts/"
+      href="https://990325.xyz/zh-cn/posts/"
     />
   </url>
   <url>
-    <loc>http://localhost:11735/zh-cn/tags/</loc>
+    <loc>https://990325.xyz/zh-cn/tags/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:11735/tags/"
+      href="https://990325.xyz/tags/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:11735/zh-cn/tags/"
+      href="https://990325.xyz/zh-cn/tags/"
     />
   </url>
   <url>
-    <loc>http://localhost:11735/zh-cn/tags/%E4%B8%AD%E6%96%87/</loc>
+    <loc>https://990325.xyz/zh-cn/tags/%E4%B8%AD%E6%96%87/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:11735/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
+    <loc>https://990325.xyz/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:11735/zh-cn/</loc>
+    <loc>https://990325.xyz/zh-cn/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:11735/"
+      href="https://990325.xyz/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:11735/zh-cn/"
+      href="https://990325.xyz/zh-cn/"
     />
   </url>
   <url>
-    <loc>http://localhost:11735/zh-cn/authors/</loc>
+    <loc>https://990325.xyz/zh-cn/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:11735/authors/"
+      href="https://990325.xyz/authors/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:11735/zh-cn/authors/"
+      href="https://990325.xyz/zh-cn/authors/"
     />
   </url>
   <url>
-    <loc>http://localhost:11735/zh-cn/categories/</loc>
+    <loc>https://990325.xyz/zh-cn/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:11735/categories/"
+      href="https://990325.xyz/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:11735/zh-cn/categories/"
+      href="https://990325.xyz/zh-cn/categories/"
     />
   </url>
   <url>
-    <loc>http://localhost:11735/zh-cn/series/</loc>
+    <loc>https://990325.xyz/zh-cn/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:11735/series/"
+      href="https://990325.xyz/series/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:11735/zh-cn/series/"
+      href="https://990325.xyz/zh-cn/series/"
     />
   </url>
 </urlset>
