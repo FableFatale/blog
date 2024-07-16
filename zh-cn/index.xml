@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>蔚瑞强的博客</title>
-    <link>http://localhost:8492/zh-cn/</link>
+    <link>http://localhost:11735/zh-cn/</link>
     <description>Recent content on 蔚瑞强的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8492/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:11735/zh-cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇博客</title>
-      <link>http://localhost:8492/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</link>
+      <link>http://localhost:11735/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8492/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</guid>
+      <guid>http://localhost:11735/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</guid>
       <description>This is my first post on my site on 2024/6/23</description>
       
     </item>
