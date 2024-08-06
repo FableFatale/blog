@@ -3,44 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://990325.xyz/posts/cot-shot-/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <loc>https://990325.xyz/tags/ai/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://990325.xyz/tags/cot/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://990325.xyz/zh-cn/tags/ai/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://990325.xyz/tags/ai/"
+    />
   </url>
   <url>
     <loc>https://990325.xyz/tags/cs/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://990325.xyz/tags/gpt/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://990325.xyz/tags/llm/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://990325.xyz/posts/llm-parameters/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://990325.xyz/posts/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -56,13 +42,13 @@
   </url>
   <url>
     <loc>https://990325.xyz/tags/prompt/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://990325.xyz/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -77,26 +63,14 @@
     />
   </url>
   <url>
-    <loc>https://990325.xyz/tags/self-consistency/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://990325.xyz/posts/self-consistency/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://990325.xyz/tags/skills/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://990325.xyz/tags/</loc>
-    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -111,8 +85,60 @@
     />
   </url>
   <url>
-    <loc>https://990325.xyz/tags/ai/</loc>
-    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <loc>https://990325.xyz/posts/use-prompt-to-enhance-your-propmt/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/posts/cot-shot-/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/tags/cot/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/tags/gpt/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/tags/llm/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://990325.xyz/zh-cn/tags/llm/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://990325.xyz/tags/llm/"
+    />
+  </url>
+  <url>
+    <loc>https://990325.xyz/posts/llm-parameters/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/tags/self-consistency/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/posts/self-consistency/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

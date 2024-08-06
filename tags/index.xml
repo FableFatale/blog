@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cot</title>
-      <link>https://990325.xyz/tags/cot/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <title>AI</title>
+      <link>https://990325.xyz/tags/ai/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/tags/cot/</guid>
+      <guid>https://990325.xyz/tags/ai/</guid>
       <description></description>
       
     </item>
@@ -21,9 +21,39 @@
     <item>
       <title>Cs</title>
       <link>https://990325.xyz/tags/cs/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://990325.xyz/tags/cs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Prompt</title>
+      <link>https://990325.xyz/tags/prompt/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://990325.xyz/tags/prompt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://990325.xyz/tags/skills/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://990325.xyz/tags/skills/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cot</title>
+      <link>https://990325.xyz/tags/cot/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://990325.xyz/tags/cot/</guid>
       <description></description>
       
     </item>
@@ -49,41 +79,11 @@
     </item>
     
     <item>
-      <title>Prompt</title>
-      <link>https://990325.xyz/tags/prompt/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://990325.xyz/tags/prompt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Self-Consistency</title>
       <link>https://990325.xyz/tags/self-consistency/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://990325.xyz/tags/self-consistency/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Skills</title>
-      <link>https://990325.xyz/tags/skills/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://990325.xyz/tags/skills/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>https://990325.xyz/tags/ai/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://990325.xyz/tags/ai/</guid>
       <description></description>
       
     </item>

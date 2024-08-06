@@ -3,8 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://990325.xyz/zh-cn/tags/ai/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://990325.xyz/tags/ai/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://990325.xyz/zh-cn/tags/ai/"
+    />
+  </url>
+  <url>
+    <loc>https://990325.xyz/zh-cn/tags/llm/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://990325.xyz/tags/llm/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://990325.xyz/zh-cn/tags/llm/"
+    />
+  </url>
+  <url>
     <loc>https://990325.xyz/zh-cn/posts/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -20,7 +52,7 @@
   </url>
   <url>
     <loc>https://990325.xyz/zh-cn/tags/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -35,20 +67,26 @@
     />
   </url>
   <url>
-    <loc>https://990325.xyz/zh-cn/tags/%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <loc>https://990325.xyz/zh-cn/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://990325.xyz/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <loc>https://990325.xyz/zh-cn/tags/%E6%84%9F%E8%B0%A2/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/zh-cn/tags/%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://990325.xyz/zh-cn/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -61,6 +99,18 @@
       hreflang="zh-cn"
       href="https://990325.xyz/zh-cn/"
     />
+  </url>
+  <url>
+    <loc>https://990325.xyz/zh-cn/tags/%E4%B8%AD%E6%96%87/</loc>
+    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://990325.xyz/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
+    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://990325.xyz/zh-cn/authors/</loc>

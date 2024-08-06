@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>蔚瑞强的博客</title>
-    <link>https://990325.xyz/zh-cn/</link>
-    <description>Recent content on 蔚瑞强的博客</description>
+    <title>AI on 蔚瑞强的博客</title>
+    <link>https://990325.xyz/zh-cn/tags/ai/</link>
+    <description>Recent content in AI on 蔚瑞强的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/zh-cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从何同学看LLM看理想主义</title>
       <link>https://990325.xyz/zh-cn/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</link>
@@ -15,16 +15,6 @@
       
       <guid>https://990325.xyz/zh-cn/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</guid>
       <description></description>
-      
-    </item>
-    
-    <item>
-      <title>我的第一篇博客</title>
-      <link>https://990325.xyz/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</link>
-      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://990325.xyz/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/</guid>
-      <description>This is my first post on my site on 2024/6/23</description>
       
     </item>
     
