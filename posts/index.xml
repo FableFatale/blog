@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Rafael Blue&#39;s Blog</title>
+    <title>Posts on Rafael Yu&#39;s Blog</title>
     <link>https://990325.xyz/posts/</link>
-    <description>Recent content in Posts on Rafael Blue&#39;s Blog</description>
+    <description>Recent content in Posts on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
@@ -14,6 +14,16 @@
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://990325.xyz/posts/use-prompt-to-enhance-your-propmt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>从何同学看LLM看理想主义</title>
+      <link>https://990325.xyz/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://990325.xyz/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</guid>
       <description></description>
       
     </item>
