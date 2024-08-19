@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
-  <meta http-equiv="content-language" content="zh-cn" />
+  <meta http-equiv="content-language" content="en" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>从何同学看LLM看理想主义 &middot; 蔚瑞强的博客</title>
-  <meta name="title" content="从何同学看LLM看理想主义 &middot; 蔚瑞强的博客" />
+  <title>The architecture of a transformer model &middot; Rafael Yu&#39;s Blog</title>
+  <meta name="title" content="The architecture of a transformer model &middot; Rafael Yu&#39;s Blog" />
   
   <meta name="description" content="My blog website" />
-  <meta name="keywords" content="感谢, 理想主义, LLM, AI, " />
+  <meta name="keywords" content="prompt, skills, cs, AI, Transformer, " />
   
   
-  <link rel="canonical" href="https://990325.xyz/zh-cn/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/" />
+  <link rel="canonical" href="https://990325.xyz/posts/the-architecture-of-a-transformer-model/" />
   
   
   
@@ -63,23 +63,24 @@
   
   
   
-  <meta property="og:url" content="https://990325.xyz/zh-cn/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/">
-  <meta property="og:site_name" content="蔚瑞强的博客">
-  <meta property="og:title" content="从何同学看LLM看理想主义">
+  <meta property="og:url" content="https://990325.xyz/posts/the-architecture-of-a-transformer-model/">
+  <meta property="og:site_name" content="Rafael Yu&#39;s Blog">
+  <meta property="og:title" content="The architecture of a transformer model">
   <meta property="og:description" content="My blog website">
-  <meta property="og:locale" content="zh_cn">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-08-02T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-08-02T00:00:00+00:00">
-    <meta property="article:tag" content="感谢">
-    <meta property="article:tag" content="理想主义">
-    <meta property="article:tag" content="LLM">
+    <meta property="article:published_time" content="2024-08-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-08-18T00:00:00+00:00">
+    <meta property="article:tag" content="Prompt">
+    <meta property="article:tag" content="Skills">
+    <meta property="article:tag" content="Cs">
     <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="Transformer">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="从何同学看LLM看理想主义">
+  <meta name="twitter:title" content="The architecture of a transformer model">
   <meta name="twitter:description" content="My blog website">
 
   
@@ -88,26 +89,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "从何同学看LLM看理想主义",
-    "headline": "从何同学看LLM看理想主义",
+    "name": "The architecture of a transformer model",
+    "headline": "The architecture of a transformer model",
     
     
-    "inLanguage": "zh-cn",
-    "url" : "https:\/\/990325.xyz\/zh-cn\/posts\/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89\/",
+    "inLanguage": "en",
+    "url" : "https:\/\/990325.xyz\/posts\/the-architecture-of-a-transformer-model\/",
     "author" : {
       "@type": "Person",
       "name": ""
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-08-02T00:00:00\u002b00:00",
-    "datePublished": "2024-08-02T00:00:00\u002b00:00",
+    "dateCreated": "2024-08-18T00:00:00\u002b00:00",
+    "datePublished": "2024-08-18T00:00:00\u002b00:00",
     
-    "dateModified": "2024-08-02T00:00:00\u002b00:00",
+    "dateModified": "2024-08-18T00:00:00\u002b00:00",
     
-    "keywords": ["感谢","理想主义","LLM","AI"],
+    "keywords": ["prompt","skills","cs","AI","Transformer"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "465"
+    "wordCount": "706"
   }]
   </script>
 
@@ -195,7 +196,7 @@
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span
-        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>跳过正文</a>
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
   </div>
   
   
@@ -210,7 +211,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/zh-cn/" class="text-base font-medium text-gray-500 hover:text-gray-900">蔚瑞强的博客</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Rafael Yu&rsquo;s Blog</a>
             
 
         </nav>
@@ -219,10 +220,10 @@
             
             
             
-  <a href="/zh-cn/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        博文
+        Posts
     </p>
 </a>
 
@@ -230,10 +231,10 @@
 
             
             
-  <a href="/zh-cn/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        标签
+        Tags
     </p>
 </a>
 
@@ -441,10 +442,10 @@
 
                     
   <li class="mt-1">
-    <a href="/zh-cn/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            博文
+            Posts
         </p>
     </a>
 </li>
@@ -456,10 +457,10 @@
 
                     
   <li class="mt-1">
-    <a href="/zh-cn/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            标签
+            Tags
         </p>
     </a>
 </li>
@@ -642,8 +643,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/zh-cn/"
-      >蔚瑞强的博客</a
+      href="/"
+      >Rafael Yu&#39;s Blog</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -651,7 +652,7 @@
   <li class="inline ">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/zh-cn/posts/"
+      href="/posts/"
       >Posts</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
@@ -660,8 +661,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/zh-cn/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/"
-      >从何同学看LLM看理想主义</a
+      href="/posts/the-architecture-of-a-transformer-model/"
+      >The architecture of a transformer model</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -670,7 +671,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      从何同学看LLM看理想主义
+      The architecture of a transformer model
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -723,7 +724,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-08-02 00:00:00 &#43;0000 UTC">2 August 2024</time><span class="px-2 text-primary-500">&middot;</span><span>465 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-08-18 00:00:00 &#43;0000 UTC">18 August 2024</time><span class="px-2 text-primary-500">&middot;</span><span>706 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -736,7 +737,7 @@
       
     
   
-  <span id="views_posts\从何同学看LLM看理想主义.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span id="views_posts\The architecture of a transformer model.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
   <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -758,7 +759,7 @@
       
     
   
-  <span id="likes_posts\从何同学看LLM看理想主义.md"
+  <span id="likes_posts\The architecture of a transformer model.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes">loading</span>
   <span class="inline-block align-text-bottom">
@@ -917,7 +918,155 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-building-blocks-of-a-transformer">The Building Blocks of a Transformer</a>
+      <ul>
+        <li><a href="#1-tokenization-breaking-language-into-manageable-pieces">1. Tokenization: Breaking Language into Manageable Pieces</a></li>
+        <li><a href="#2-embedding-turning-words-into-numbers">2. Embedding: Turning Words into Numbers</a></li>
+        <li><a href="#3-positional-encoding-preserving-word-order">3. Positional Encoding: Preserving Word Order</a></li>
+        <li><a href="#4-transformer-blocks-the-heart-of-the-model">4. Transformer Blocks: The Heart of the Model</a>
+          <ul>
+            <li><a href="#attention-understanding-context">Attention: Understanding Context</a></li>
+          </ul>
+        </li>
+        <li><a href="#5-the-softmax-layer-generating-probabilities">5. The Softmax Layer: Generating Probabilities</a></li>
+      </ul>
+    </li>
+    <li><a href="#beyond-training-fine-tuning-and-adaptation">Beyond Training: Fine-Tuning and Adaptation</a></li>
+    <li><a href="#conclusion-the-future-of-language-ai">Conclusion: The Future of Language AI</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#thank-you-cohere-and-thank-you-for-your-reading">Thank you, Cohere. And thank you for your reading.</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-building-blocks-of-a-transformer">The Building Blocks of a Transformer</a>
+      <ul>
+        <li><a href="#1-tokenization-breaking-language-into-manageable-pieces">1. Tokenization: Breaking Language into Manageable Pieces</a></li>
+        <li><a href="#2-embedding-turning-words-into-numbers">2. Embedding: Turning Words into Numbers</a></li>
+        <li><a href="#3-positional-encoding-preserving-word-order">3. Positional Encoding: Preserving Word Order</a></li>
+        <li><a href="#4-transformer-blocks-the-heart-of-the-model">4. Transformer Blocks: The Heart of the Model</a>
+          <ul>
+            <li><a href="#attention-understanding-context">Attention: Understanding Context</a></li>
+          </ul>
+        </li>
+        <li><a href="#5-the-softmax-layer-generating-probabilities">5. The Softmax Layer: Generating Probabilities</a></li>
+      </ul>
+    </li>
+    <li><a href="#beyond-training-fine-tuning-and-adaptation">Beyond Training: Fine-Tuning and Adaptation</a></li>
+    <li><a href="#conclusion-the-future-of-language-ai">Conclusion: The Future of Language AI</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#thank-you-cohere-and-thank-you-for-your-reading">Thank you, Cohere. And thank you for your reading.</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -925,29 +1074,206 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>今天刚看完何同学最新一期的视频，感触非常大。我最早知道何同学也是从影视飓风那里知道的。何同学的最新一期视频主要讲他自己做视频过程中发生的一些故事，包括爱情、青春、努力、贵人、速度和时代浪潮。</p>
-<p>一开始，视频没什么观看量，但后来他调整了方向，集中资源，等到做大做强后开始做新品手机评测。后来，遇到贵人，加上自己的坚持，他如同周公解梦一样赶上了5G时代浪潮。当然，最让他火的因素还是坚持。</p>
-<p>无论是视频创作爆火的年代，还是现在的LLM，一些创始人身上都体现出了一种类似锤子科技的理想主义。理想主义驱动人们奋斗，实现目标。回看我自己，我也有理想主义，但没有付诸太多行动。自嘲一下：我学会了与过去失去的友情和爱情和解，但唯一没有和解的是现在这个糟糕的自己。</p>
-<p>没关系，LLM来了。我已经调整了我的方向和学习方法。STEM教育加费曼学习法加AI更适合我，行动加反思能让我获得进步。我正在找一个好的创业公司，跟随一个好的老板，加入他们，一起做出好的产品，方便他人，也方便自己。</p>
-<p>出海风浪很大，只做长期主义的事情。行动吧，渺小的Prompt Engineer。</p>
+          
+
+<h1 class="relative group">The Transformer Model: Revolutionizing Natural Language Processing 
+    <div id="the-transformer-model-revolutionizing-natural-language-processing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-transformer-model-revolutionizing-natural-language-processing" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p><strong>Keywords:</strong> transformer model, natural language processing, NLP, machine learning, artificial intelligence, deep learning</p>
+<p>In the world of artificial intelligence and natural language processing, few innovations have made as significant an impact as the transformer model. This groundbreaking architecture has revolutionized how machines understand and generate human language. Let&rsquo;s dive into the key components that make transformers so powerful.</p>
+
+
+<h2 class="relative group">The Building Blocks of a Transformer 
+    <div id="the-building-blocks-of-a-transformer" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-building-blocks-of-a-transformer" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>The transformer architecture consists of several crucial elements:</p>
+<ol>
+<li>Tokenization</li>
+<li>Embedding</li>
+<li>Positional encoding</li>
+<li>Transformer blocks (multiple)</li>
+<li>Softmax layer</li>
+</ol>
+<p>Each of these components plays a vital role in the model&rsquo;s ability to process and generate language. Let&rsquo;s explore them in detail.</p>
+
+
+<h3 class="relative group">1. Tokenization: Breaking Language into Manageable Pieces 
+    <div id="1-tokenization-breaking-language-into-manageable-pieces" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-tokenization-breaking-language-into-manageable-pieces" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Tokenization is the first step in processing text for a transformer model. It involves breaking down text into smaller units called tokens. These tokens can be words, subwords, or even individual characters, depending on the specific tokenization method used.</p>
 <p>
   <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408061418673.jpg" alt="Notes_1722525439508" />
+    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408181722129.png" alt="Tokenization process" />
     
   </figure>
 </p>
+<p>Different tokenization strategies can significantly impact a model&rsquo;s performance and efficiency. For instance, subword tokenization allows models to handle rare words and different languages more effectively.</p>
+
+
+<h3 class="relative group">2. Embedding: Turning Words into Numbers 
+    <div id="2-embedding-turning-words-into-numbers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-embedding-turning-words-into-numbers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Once text is tokenized, the next step is to convert these tokens into a format that machines can understand – numbers. This is where embedding comes in. Embedding turns each token into a vector of numbers, representing its meaning in a multi-dimensional space.</p>
 <p>
   <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408061418701.jpg" alt="Notes_1722525439559" />
+    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408181709969.png" alt="Embedding visualization" />
     
   </figure>
 </p>
+<p>These embeddings capture semantic relationships between words, allowing the model to understand context and meaning. Different transformer models may use embeddings of varying dimensions, typically ranging from 128 to 1024 or more.</p>
+
+
+<h3 class="relative group">3. Positional Encoding: Preserving Word Order 
+    <div id="3-positional-encoding-preserving-word-order" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-positional-encoding-preserving-word-order" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Unlike recurrent neural networks, transformer models process all words in a sentence simultaneously. This parallel processing is efficient but loses information about word order. Positional encoding solves this problem by adding information about a token&rsquo;s position in the sequence to its embedding.</p>
 <p>
   <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408061418368.jpg" alt="Notes_1722525439593" />
+    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408181722108.png" alt="Positional encoding illustration" />
     
   </figure>
 </p>
+<p>This clever technique ensures that the model can distinguish between sentences with the same words in different orders, preserving crucial syntactic information.</p>
+
+
+<h3 class="relative group">4. Transformer Blocks: The Heart of the Model 
+    <div id="4-transformer-blocks-the-heart-of-the-model" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-transformer-blocks-the-heart-of-the-model" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>The transformer block is where the magic happens. Each block consists of two main components:</p>
+<ul>
+<li>The attention mechanism</li>
+<li>The feedforward neural network</li>
+</ul>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408181745449.png" alt="Transformer block diagram" />
+    
+  </figure>
+</p>
+<p>Multiple transformer blocks are typically stacked on top of each other, allowing the model to learn increasingly complex language patterns.</p>
+
+
+<h4 class="relative group">Attention: Understanding Context 
+    <div id="attention-understanding-context" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#attention-understanding-context" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>The attention mechanism is a key innovation in transformer models. It allows the model to focus on different parts of the input when processing each word, capturing context and relationships between words.</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408181807989.png" alt="Attention mechanism example" />
+    
+  </figure>
+</p>
+<p>For example, in the sentences &ldquo;The bank of the river&rdquo; and &ldquo;Money in the bank,&rdquo; the attention mechanism helps the model understand the different meanings of &ldquo;bank&rdquo; based on context.</p>
+<p>Transformers often use multi-head attention, where several different attention mechanisms operate in parallel, allowing the model to capture various types of relationships simultaneously.</p>
+
+
+<h3 class="relative group">5. The Softmax Layer: Generating Probabilities 
+    <div id="5-the-softmax-layer-generating-probabilities" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-the-softmax-layer-generating-probabilities" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>The final layer of a transformer model is typically a softmax layer. This layer takes the raw outputs from the transformer blocks and converts them into probabilities.</p>
+<p>
+  <figure>
+    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202408181819337.png" alt="Softmax layer visualization" />
+    
+  </figure>
+</p>
+<p>For tasks like language generation, these probabilities represent the likelihood of each word in the vocabulary being the next word in the sequence. The word with the highest probability is often chosen as the model&rsquo;s output.</p>
+
+
+<h2 class="relative group">Beyond Training: Fine-Tuning and Adaptation 
+    <div id="beyond-training-fine-tuning-and-adaptation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#beyond-training-fine-tuning-and-adaptation" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>While the basic architecture of transformer models is powerful, their true potential is realized through fine-tuning and adaptation. Post-training techniques allow these models to excel in specific tasks or domains.</p>
+<p>For instance, a general-purpose transformer can be fine-tuned on conversational data to create a chatbot, or on code repositories to assist with programming tasks. This flexibility and adaptability have made transformers the backbone of many modern AI applications.</p>
+
+
+<h2 class="relative group">Conclusion: The Future of Language AI 
+    <div id="conclusion-the-future-of-language-ai" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#conclusion-the-future-of-language-ai" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>The transformer architecture has fundamentally changed the landscape of natural language processing. From machine translation to chatbots, from content generation to code completion, transformers are powering a new generation of AI capabilities.</p>
+<p>As research continues and these models become more sophisticated, we can expect even more impressive applications in the future. The era of truly intelligent language AI is just beginning, and transformers are leading the way.</p>
+
+
+<h4 class="relative group">Thank you, Cohere. And thank you for your reading. 
+    <div id="thank-you-cohere-and-thank-you-for-your-reading" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#thank-you-cohere-and-thank-you-for-your-reading" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
 
         </div>
         
@@ -967,8 +1293,8 @@
           
         
       <script>
-        var oid = "views_posts\\从何同学看LLM看理想主义.md"
-        var oid_likes = "likes_posts\\从何同学看LLM看理想主义.md"
+        var oid = "views_posts\\The architecture of a transformer model.md"
+        var oid_likes = "likes_posts\\The architecture of a transformer model.md"
       </script>
       
       
@@ -988,7 +1314,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/zh-cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87/">
+            <a class="flex group mr-3" href="/posts/use-prompt-to-enhance-your-propmt/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1000,11 +1326,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >我的第一篇博客</span
+                  >Use prompt to enhance your propmt</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-06-23 00:00:00 &#43;0000 UTC">23 June 2024</time>
+                    <time datetime="2024-08-06 00:00:00 &#43;0000 UTC">6 August 2024</time>
                   
                 </span>
               </span>
@@ -1026,7 +1352,7 @@
       <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
   <a href="#the-top"
     class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="返回顶部" title="返回顶部">
+    aria-label="Scroll to top" title="Scroll to top">
     &uarr;
   </a>
 </div>
@@ -1054,7 +1380,7 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      © 2024 Rafael Yu, CC BY-NC 4.0
+      © 2024 Ruiqiang Yu, CC BY-NC 4.0
     </p>
     
 
@@ -1063,9 +1389,9 @@
     <p class="text-xs text-neutral-500 dark:text-neutral-400">
       
       
-      由 <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
         href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a> 强力驱动
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
     </p>
     
 
@@ -1088,7 +1414,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://990325.xyz/zh-cn/"
+  data-url="https://990325.xyz/"
   style="z-index:500"
 >
   <div
@@ -1111,14 +1437,14 @@
           type="search"
           id="search-query"
           class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
-          placeholder="搜索"
+          placeholder="Search"
           tabindex="0"
         />
       </form>
       <button
         id="close-search-button"
         class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-        title="关闭 (Esc)"
+        title="Close (Esc)"
       >
         
 

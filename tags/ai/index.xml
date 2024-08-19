@@ -7,23 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The architecture of a transformer model</title>
+      <link>https://990325.xyz/posts/the-architecture-of-a-transformer-model/</link>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://990325.xyz/posts/the-architecture-of-a-transformer-model/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Use prompt to enhance your propmt</title>
       <link>https://990325.xyz/posts/use-prompt-to-enhance-your-propmt/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://990325.xyz/posts/use-prompt-to-enhance-your-propmt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>从何同学看LLM看理想主义</title>
-      <link>https://990325.xyz/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</link>
-      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://990325.xyz/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</guid>
       <description></description>
       
     </item>
