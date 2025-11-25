@@ -2,149 +2,149 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rafael Yu&#39;s Blog</title>
-    <link>https://990325.me/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Rafael Yu</copyright>
-    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cs</title>
-      <link>https://990325.me/tags/cs/</link>
+      <link>/tags/cs/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/cs/</guid>
+      <guid>/tags/cs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Fewshot</title>
-      <link>https://990325.me/tags/fewshot/</link>
+      <link>/tags/fewshot/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/fewshot/</guid>
+      <guid>/tags/fewshot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prompt</title>
-      <link>https://990325.me/tags/prompt/</link>
+      <link>/tags/prompt/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/prompt/</guid>
+      <guid>/tags/prompt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Skills</title>
-      <link>https://990325.me/tags/skills/</link>
+      <link>/tags/skills/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/skills/</guid>
+      <guid>/tags/skills/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI</title>
-      <link>https://990325.me/tags/ai/</link>
+      <link>/tags/ai/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/ai/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Transformer</title>
-      <link>https://990325.me/tags/transformer/</link>
+      <link>/tags/transformer/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/transformer/</guid>
+      <guid>/tags/transformer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cot</title>
-      <link>https://990325.me/tags/cot/</link>
+      <link>/tags/cot/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/cot/</guid>
+      <guid>/tags/cot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Gpt</title>
-      <link>https://990325.me/tags/gpt/</link>
+      <link>/tags/gpt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/gpt/</guid>
+      <guid>/tags/gpt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>https://990325.me/tags/llm/</link>
+      <link>/tags/llm/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/llm/</guid>
+      <guid>/tags/llm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Self-Consistency</title>
-      <link>https://990325.me/tags/self-consistency/</link>
+      <link>/tags/self-consistency/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/self-consistency/</guid>
+      <guid>/tags/self-consistency/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Flowchat</title>
-      <link>https://990325.me/tags/flowchat/</link>
+      <link>/tags/flowchat/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/flowchat/</guid>
+      <guid>/tags/flowchat/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Few-Shot</title>
-      <link>https://990325.me/tags/few-shot/</link>
+      <link>/tags/few-shot/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/few-shot/</guid>
+      <guid>/tags/few-shot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Zero-Shot</title>
-      <link>https://990325.me/tags/zero-shot/</link>
+      <link>/tags/zero-shot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/zero-shot/</guid>
+      <guid>/tags/zero-shot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Space</title>
-      <link>https://990325.me/tags/space/</link>
+      <link>/tags/space/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/tags/space/</guid>
+      <guid>/tags/space/</guid>
       <description></description>
       
     </item>

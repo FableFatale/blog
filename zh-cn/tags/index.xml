@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rafael Yu&#39;s Blog</title>
-    <link>https://990325.me/zh-cn/tags/</link>
+    <link>/zh-cn/tags/</link>
     <description>Recent content in Tags on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 Rafael Yu</copyright>
-    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.me/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AI</title>
-      <link>https://990325.me/zh-cn/tags/ai/</link>
+      <link>/zh-cn/tags/ai/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/zh-cn/tags/ai/</guid>
+      <guid>/zh-cn/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>https://990325.me/zh-cn/tags/llm/</link>
+      <link>/zh-cn/tags/llm/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/zh-cn/tags/llm/</guid>
+      <guid>/zh-cn/tags/llm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>感谢</title>
-      <link>https://990325.me/zh-cn/tags/%E6%84%9F%E8%B0%A2/</link>
+      <link>/zh-cn/tags/%E6%84%9F%E8%B0%A2/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/zh-cn/tags/%E6%84%9F%E8%B0%A2/</guid>
+      <guid>/zh-cn/tags/%E6%84%9F%E8%B0%A2/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>理想主义</title>
-      <link>https://990325.me/zh-cn/tags/%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</link>
+      <link>/zh-cn/tags/%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/zh-cn/tags/%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</guid>
+      <guid>/zh-cn/tags/%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>中文</title>
-      <link>https://990325.me/zh-cn/tags/%E4%B8%AD%E6%96%87/</link>
+      <link>/zh-cn/tags/%E4%B8%AD%E6%96%87/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/zh-cn/tags/%E4%B8%AD%E6%96%87/</guid>
+      <guid>/zh-cn/tags/%E4%B8%AD%E6%96%87/</guid>
       <description></description>
       
     </item>
