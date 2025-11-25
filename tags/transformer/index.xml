@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transformer on Rafael Yu&#39;s Blog</title>
-    <link>http://localhost:1313/tags/transformer/</link>
+    <link>https://990325.me/tags/transformer/</link>
     <description>Recent content in Transformer on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Rafael Yu</copyright>
-    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.me/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The architecture of a transformer model</title>
-      <link>http://localhost:1313/posts/the-architecture-of-a-transformer-model/</link>
+      <link>https://990325.me/posts/the-architecture-of-a-transformer-model/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/the-architecture-of-a-transformer-model/</guid>
+      <guid>https://990325.me/posts/the-architecture-of-a-transformer-model/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;The Transformer Model: Revolutionizing Natural Language Processing
     &lt;div id=&#34;the-transformer-model-revolutionizing-natural-language-processing&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

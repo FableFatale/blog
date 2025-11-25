@@ -2,149 +2,149 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rafael Yu&#39;s Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://990325.me/tags/</link>
     <description>Recent content in Tags on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Rafael Yu</copyright>
-    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cs</title>
-      <link>http://localhost:1313/tags/cs/</link>
+      <link>https://990325.me/tags/cs/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cs/</guid>
+      <guid>https://990325.me/tags/cs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Fewshot</title>
-      <link>http://localhost:1313/tags/fewshot/</link>
+      <link>https://990325.me/tags/fewshot/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/fewshot/</guid>
+      <guid>https://990325.me/tags/fewshot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prompt</title>
-      <link>http://localhost:1313/tags/prompt/</link>
+      <link>https://990325.me/tags/prompt/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/prompt/</guid>
+      <guid>https://990325.me/tags/prompt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Skills</title>
-      <link>http://localhost:1313/tags/skills/</link>
+      <link>https://990325.me/tags/skills/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/skills/</guid>
+      <guid>https://990325.me/tags/skills/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://990325.me/tags/ai/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://990325.me/tags/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Transformer</title>
-      <link>http://localhost:1313/tags/transformer/</link>
+      <link>https://990325.me/tags/transformer/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/transformer/</guid>
+      <guid>https://990325.me/tags/transformer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cot</title>
-      <link>http://localhost:1313/tags/cot/</link>
+      <link>https://990325.me/tags/cot/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cot/</guid>
+      <guid>https://990325.me/tags/cot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Gpt</title>
-      <link>http://localhost:1313/tags/gpt/</link>
+      <link>https://990325.me/tags/gpt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/gpt/</guid>
+      <guid>https://990325.me/tags/gpt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>http://localhost:1313/tags/llm/</link>
+      <link>https://990325.me/tags/llm/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/llm/</guid>
+      <guid>https://990325.me/tags/llm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Self-Consistency</title>
-      <link>http://localhost:1313/tags/self-consistency/</link>
+      <link>https://990325.me/tags/self-consistency/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/self-consistency/</guid>
+      <guid>https://990325.me/tags/self-consistency/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Flowchat</title>
-      <link>http://localhost:1313/tags/flowchat/</link>
+      <link>https://990325.me/tags/flowchat/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/flowchat/</guid>
+      <guid>https://990325.me/tags/flowchat/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Few-Shot</title>
-      <link>http://localhost:1313/tags/few-shot/</link>
+      <link>https://990325.me/tags/few-shot/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/few-shot/</guid>
+      <guid>https://990325.me/tags/few-shot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Zero-Shot</title>
-      <link>http://localhost:1313/tags/zero-shot/</link>
+      <link>https://990325.me/tags/zero-shot/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/zero-shot/</guid>
+      <guid>https://990325.me/tags/zero-shot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Space</title>
-      <link>http://localhost:1313/tags/space/</link>
+      <link>https://990325.me/tags/space/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/space/</guid>
+      <guid>https://990325.me/tags/space/</guid>
       <description></description>
       
     </item>
