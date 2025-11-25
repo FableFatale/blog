@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flowchat on Rafael Yu&#39;s Blog</title>
-    <link>https://990325.xyz/tags/flowchat/</link>
+    <link>https://990325.me/tags/flowchat/</link>
     <description>Recent content in Flowchat on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Ruiqiang Yu, CC BY-NC 4.0</copyright>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.xyz/tags/flowchat/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Rafael Yu</copyright>
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.me/tags/flowchat/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>With AI to get a nice flow chat</title>
-      <link>https://990325.xyz/posts/get-or-update--a-flow-chat---with-ai-/</link>
+      <link>https://990325.me/posts/with-ai-to-get-a-nice-flow-chat/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.xyz/posts/get-or-update--a-flow-chat---with-ai-/</guid>
-      <description></description>
+      <guid>https://990325.me/posts/with-ai-to-get-a-nice-flow-chat/</guid>
+      <description>&lt;p&gt;How can you get or update a flow chat with AI&lt;/p&gt;</description>
       
     </item>
     

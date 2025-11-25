@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Rafael Yu&#39;s Blog</title>
+    <link>http://localhost:1313/en/tags/ai/</link>
+    <description>Recent content in AI on Rafael Yu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Rafael Yu</copyright>
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The architecture of a transformer model</title>
+      <link>http://localhost:1313/en/posts/the-architecture-of-a-transformer-model/</link>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/the-architecture-of-a-transformer-model/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;The Transformer Model: Revolutionizing Natural Language Processing
+    &lt;div id=&#34;the-transformer-model-revolutionizing-natural-language-processing&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#the-transformer-model-revolutionizing-natural-language-processing&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;**Keywords:**transformer model, natural language processing, NLP, machine learning, artificial intelligence, deep learning&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Use prompt to enhance your propmt</title>
+      <link>http://localhost:1313/en/posts/use-prompt-to-enhance-your-propmt/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/use-prompt-to-enhance-your-propmt/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Analyze the following prompt idea: [insert prompt idea]~Rewrite the prompt for clarity and effectiveness~Identify potential improvements or additions~Refine the prompt based on identified improvements~Present the final optimized prompt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;Input:&lt;/p&gt;
+&lt;p&gt;Analyze the following prompt idea: [You are an experienced financial analyst and investment advisor. Please develop a long-term investment strategy for a 30-year-old professional. This individual has an annual income of $100,000, with $50,000 available for immediate investment, and plans to invest an additional $1,000 monthly. They have a moderate risk tolerance and aim to prepare for retirement in 25-30 years. Provide specific asset allocation recommendations, including stocks, bonds, ETFs, and other potential investment vehicles. Explain the rationale behind your recommendations and discuss the potential risks and returns of this strategy.]Rewrite the prompt for clarity and effectivenessIdentify potential improvements or additionsRefine the prompt based on identified improvementsPresent the final optimized prompt&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>从何同学看LLM看理想主义</title>
+      <link>http://localhost:1313/en/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/%E4%BB%8E%E4%BD%95%E5%90%8C%E5%AD%A6%E7%9C%8Bllm%E7%9C%8B%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/</guid>
+      <description>&lt;p&gt;今天刚看完何同学最新一期的视频，感触非常大。我最早知道何同学也是从影视飓风那里知道的。何同学的最新一期视频主要讲他自己做视频过程中发生的一些故事，包括爱情、青春、努力、贵人、速度和时代浪潮。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>With AI to get a nice flow chat</title>
+      <link>http://localhost:1313/en/posts/with-ai-to-get-a-nice-flow-chat/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/with-ai-to-get-a-nice-flow-chat/</guid>
+      <description>&lt;p&gt;How can you get or update a flow chat with AI&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open Claude or something AI platform&lt;/li&gt;
+&lt;li&gt;Input your demand or upload your flow chat ,than tell AI to get Mermaid Picture&lt;/li&gt;
+&lt;li&gt;You will get a nice beautiful flow chat like this :(I use chatNext with Claude API)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+  
+ graph TD;
+        A[User Visits Landing Page] --&amp;gt; B{Interested?}
+        B --&amp;gt;|Yes| C[Explore Content]
+        B --&amp;gt;|No| D[Exit Page]
+        C --&amp;gt; E{Call to Action}
+        E --&amp;gt;|Sign Up| F[Registration Form]
+        E --&amp;gt;|Learn More| G[Additional Information]
+        E --&amp;gt;|Contact Us| H[Contact Form]
+        F --&amp;gt; I[Thank You Page]
+        G --&amp;gt; E
+        H --&amp;gt; J[Confirmation Message]
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

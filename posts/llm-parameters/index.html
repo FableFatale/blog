@@ -1,85 +1,227 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
   data-auto-appearance="true"><head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   
-  <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="content-language" content="en">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  
-  <title>LLM Parameters &middot; Rafael Yu&#39;s Blog</title>
-  <meta name="title" content="LLM Parameters &middot; Rafael Yu&#39;s Blog" />
-  
-  <meta name="description" content="LLM&#39;s parameters study " />
-  <meta name="keywords" content="LLM, Prompt, Gpt, " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
   
   
-  <link rel="canonical" href="https://990325.xyz/posts/llm-parameters/" />
+    <title>LLM Parameters &middot; Rafael Yu&#39;s Blog</title>
+    <meta name="title" content="LLM Parameters &middot; Rafael Yu&#39;s Blog">
+  
+
   
   
+    <meta name="description" content="LLM&amp;#39;s parameters study ">
   
   
-  
-  
-  
+    <meta name="keywords" content="Prompt,LLM,Gpt,">
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.85f006de1806b55b2d082d1122deedd8cec6fdc1f7c8a51be975a4496165d6c798f4a3de52545a6a87cc4bc09fc2d6f5201d44ea57acc1ac2b1c42a688c62bee.css"
-    integrity="sha512-hfAG3hgGtVstCC0RIt7t2M7G/cH3yKUb6XWkSWFl1seY9KPeUlRaaofMS8Cfwtb1IB1E6leswawrHEKmiMYr7g==" />
+  <link rel="canonical" href="https://990325.me/posts/llm-parameters/">
+  
+
   
   
-  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
-    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+    <meta name="author" content="Rafael Yu">
   
   
+    
+      
+        
+      
+    
+      
+        
+          <link href="https://www.linkedin.com/in/ruiqiang-yu-997b52285/" rel="me">
+        
+      
+    
+      
+        
+          <link href="https://github.com/FableFatale" rel="me">
+        
+      
+    
+      
+        
+          <link href="https://x.com/wangye1644294" rel="me">
+        
+      
+    
   
+
   
-  
-  
-  
-  
-  
-  
-  
-  
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.8b56b0fd46524eaecbfe33f576b8ba2cd2a122521a89f8229a95be0b635a7ac8e774eb1d8b8b93b32bbd677c3deb734aeea62917443f124d5bf5478859767380.js"
-    integrity="sha512-i1aw/UZSTq7L/jP1dri6LNKhIlIaifgimpW&#43;C2NaesjndOsdi4uTsyu9Z3w963NK7qYpF0Q/Ek1b9UeIWXZzgA==" data-copy="" data-copied=""></script>
-  
-  
-  <script src="/js/zoom.min.js"></script>
-  
-  
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-  
-  
-  
-  
-  
-  
-  
-  <meta property="og:url" content="https://990325.xyz/posts/llm-parameters/">
+  <meta property="og:url" content="https://990325.me/posts/llm-parameters/">
   <meta property="og:site_name" content="Rafael Yu&#39;s Blog">
   <meta property="og:title" content="LLM Parameters">
-  <meta property="og:description" content="LLM’s parameters study">
+  <meta property="og:description" content="LLM&#39;s parameters study">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-07-14T00:00:00+00:00">
     <meta property="article:modified_time" content="2024-07-14T00:00:00+00:00">
-    <meta property="article:tag" content="LLM">
     <meta property="article:tag" content="Prompt">
+    <meta property="article:tag" content="LLM">
     <meta property="article:tag" content="Gpt">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="LLM Parameters">
-  <meta name="twitter:description" content="LLM’s parameters study">
+  <meta name="twitter:description" content="LLM&#39;s parameters study">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+    
+  
+
+  
+  
+    <meta name="google-site-verification" content="jGG7VA275T1CliH5rXVA_924NxeQTrzVM9xT-8q">
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.bd0a72d77cdf0538aad640415e8652b7b64a1af3a6302dc97f418117cabd91d4525ac7d882f700f373b560fb80aaa4ba70f7c0a9b79ded1f750ea39f0de0239c.css"
+    integrity="sha512-vQpy13zfBTiq1kBBXoZSt7ZKGvOmMC3Jf0GBF8q9kdRSWsfYgvcA83O1YPuAqqS6cPfAqbed7R91DqOfDeAjnA==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.b4b722fcb5d42f34f52b30a92f3521b69f403ca9d96d0d6179eb537cb870f5d83fdf1fe836688d95d5c99fefbda4170487711006e56051fa67ea00da10521721.js" integrity="sha512-tLci/LXULzT1KzCpLzUhtp9APKnZbQ1heetTfLhw9dg/3x/oNmiNldXJn&#43;&#43;9pBcEh3EQBuVgUfpn6gDaEFIXIQ=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.e3d337dd3f18427eb20aa355839d583ef6382bc42e34cfe789adb9358d463ef51f53691e32f524259380d4d3add49162f522426784990f3a5dbd39c33c6ed05a.js"
+      integrity="sha512-49M33T8YQn6yCqNVg51YPvY4K8QuNM/nia25NY1GPvUfU2keMvUkJZOA1NOt1JFi9SJCZ4SZDzpdvTnDPG7QWg=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
 
   
   <script type="application/ld+json">
@@ -89,13 +231,13 @@
     "articleSection": "Posts",
     "name": "LLM Parameters",
     "headline": "LLM Parameters",
-    
-    "abstract": "LLM\u0026rsquo;s parameters study",
+    "description": "LLM\u0026#39;s parameters study ",
+    "abstract": "\u003cp\u003e\u003cfigure\u003e\u003cimg\r\n    class=\u0022my-0 rounded-md\u0022\r\n    loading=\u0022lazy\u0022\r\n    decoding=\u0022async\u0022\r\n    fetchpriority=\u0022low\u0022\r\n    alt=\u0022featured\u0022\r\n    src=\u0022https:\/\/raw.githubusercontent.com\/FableFatale\/typora\/main\/img\/202407141631753.jpg\u0022\r\n    \u003e\u003c\/figure\u003e\r\n\u003c\/p\u003e\n\r\n\u003ch1 class=\u0022relative group\u0022\u003eThis is an introduction to the LLM parameters.\r\n    \u003cdiv id=\u0022this-is-an-introduction-to-the-llm-parameters\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\r\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#this-is-an-introduction-to-the-llm-parameters\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e\r\n    \r\n\u003c\/h1\u003e\r\n\r\n\u003ch2 class=\u0022relative group\u0022\u003eInference-Parameters\r\n    \u003cdiv id=\u0022inference-parameters\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\r\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#inference-parameters\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e\r\n    \r\n\u003c\/h2\u003e\r\n\u003cul\u003e\n\u003cli\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cstrong\u003eTemperature(Default 1 RANGE 0-2)\u003c\/strong\u003e\u003c\/p\u003e",
     "inLanguage": "en",
-    "url" : "https:\/\/990325.xyz\/posts\/llm-parameters\/",
+    "url" : "https:\/\/990325.me\/posts\/llm-parameters\/",
     "author" : {
       "@type": "Person",
-      "name": ""
+      "name": "Rafael Yu"
     },
     "copyrightYear": "2024",
     "dateCreated": "2024-07-14T00:00:00\u002b00:00",
@@ -103,54 +245,22 @@
     
     "dateModified": "2024-07-14T00:00:00\u002b00:00",
     
-    "keywords": ["LLM","Prompt","Gpt"],
+    "keywords": ["Prompt","LLM","Gpt"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2050"
+    "wordCount": "2325"
   }]
   </script>
 
 
-  
-  
-  
-  
-  
-  <link href="https://x.com/wangye1644294" rel="me" />
-  
-  
-  <link href="https://github.com/FableFatale" rel="me" />
-  
-  
-  
-  
-
-<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   
   
+    
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EL2L3E593F"></script>
+  <script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-EL2L3E593F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -160,506 +270,414 @@
 </script>
 
 
-  
-  
-  <meta name="theme-color"/>
-  
-  
-  
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-  <script>
 
-    const firebaseConfig = {
-      apiKey: "AIzaSyCXDoZ4P5TaCncWakGBOe68_6kRbGa6EEg",
-      authDomain: "AIzaSyCXDoZ4P5TaCncWakGBOe68_6kRbGa6EEg",
-      projectId: "blog-2c725",
-      storageBucket: "blog-2c725.appspot.com",
-      messagingSenderId: "258794137915",
-      appId: "1:258794137915:web:7aa0272f01d4946fb82f1e",
-      measurementId: "G-D69FG5E6BR"
-    };
 
-    var app = firebase.initializeApp(firebaseConfig);
-    var db = firebase.firestore();
-    var auth = firebase.auth();
 
-  </script>
+  
+
+  
+  
+    
+<style>
+ 
+.fixed.inset-x-0[style*="z-index:-10"] {
+  z-index: -10 !important;
+}
+
+ 
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops)) !important;
+}
+</style>
+
+  
+
+  
+  
+
+  
+  
+
   
   
 </head>
-<body
-  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
-  <div id="the-top" class="absolute flex self-center">
-    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
-      href="#main-content"><span
-        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
-  <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
-  <div class="relative max-w-[64rem] ml-auto mr-auto">
-    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
-    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
-    
-    <div class="flex flex-1 items-center justify-between">
-        <nav class="flex space-x-3">
-
-            
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Rafael Yu&rsquo;s Blog</a>
-            
-
-        </nav>
-        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
-
-            
-            
-            
-  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        Posts
-    </p>
-</a>
-
-
-
-            
-            
-  <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        Tags
-    </p>
-</a>
-
-
-
-            
-            
-  <a href="https://github.com/FableFatale"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <span >
-        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-
-  </span>
-
-
-    </span>
-    
-    <p class="text-base font-medium" title="">
-        
-    </p>
-</a>
-
-
-
-            
-            
-  <a href="https://www.linkedin.com/in/ruiqiang-yu-997b52285/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <span >
-        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-
-  </span>
-
-
-    </span>
-    
-    <p class="text-base font-medium" title="">
-        
-    </p>
-</a>
-
-
-
-            
-            
-  <a href="aq1774533360@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <span >
-        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
-
-  </span>
-
-
-    </span>
-    
-    <p class="text-base font-medium" title="">
-        
-    </p>
-</a>
-
-
-
-            
-            
-
-            
-
-
-            
-            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-                title="">
-                
-
-  <span class="relative block icon">
-    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-
-  </span>
-
-
-            </button>
-            
-
-
-            
-            
-            <div
-                class="ltr:mr-14 rtl:ml-14 flex items-center">
-                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
-                    <div class="flex items-center justify-center dark:hidden">
-                        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-
-  </span>
-
-
-                    </div>
-                    <div class="items-center justify-center hidden dark:flex">
-                        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-
-  </span>
-
-
-                    </div>
-                </button>
-            </div>
-            
-
-        </nav>
-        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
-
-            <span></span>
-
-            
-
-
-            
-            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-                title="">
-                
-
-  <span class="relative block icon">
-    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-
-  </span>
-
-
-            </button>
-            
-
-            
-            
-            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
-                <div class="flex items-center justify-center dark:hidden">
-                    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-
-  </span>
-
-
-                </div>
-                <div class="items-center justify-center hidden dark:flex">
-                    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-
-  </span>
-
-
-                </div>
-            </button>
-            
-
-        </div>
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
     </div>
-    <div class="-my-2 -mr-2 md:hidden">
-
-        <label id="menu-button" for="menu-controller" class="block">
-            <input type="checkbox" id="menu-controller" class="hidden" />
-            
-            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-                
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-
-  </span>
-
-
-            </div>
-            <div id="menu-wrapper" style="padding-top:5px;"
-                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
-                <ul
-                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
-
-                    <li>
-                        <span
-                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-
-  </span>
-
-</span>
-                    </li>
-
-                    
-
-                    
-  <li class="mt-1">
-    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="">
-            Posts
-        </p>
-    </a>
-</li>
+    
+    
+      <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    
 
 
 
 
-                    
-
-                    
-  <li class="mt-1">
-    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="">
-            Tags
-        </p>
-    </a>
-</li>
 
 
 
 
-                    
-
-                    
-  <li class="mt-1">
-    <a href="https://github.com/FableFatale"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <div >
-            
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-
-  </span>
-
-
-        </div>
-        
-        <p class="text-bg font-bg" title="">
-            
-        </p>
-    </a>
-</li>
 
 
 
 
-                    
 
-                    
-  <li class="mt-1">
-    <a href="https://www.linkedin.com/in/ruiqiang-yu-997b52285/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <div >
-            
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-
-  </span>
-
-
-        </div>
-        
-        <p class="text-bg font-bg" title="">
-            
-        </p>
-    </a>
-</li>
-
-
-
-
-                    
-
-                    
-  <li class="mt-1">
-    <a href="aq1774533360@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <div >
-            
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
-
-  </span>
-
-
-        </div>
-        
-        <p class="text-bg font-bg" title="">
-            
-        </p>
-    </a>
-</li>
-
-
-
-
-                    
-
-                </ul>
-                
-                
-
-            </div>
-        </label>
-    </div>
-</div>
-
-
-
-
-<script>
-    (function () {
-        var $mainmenu = $('.main-menu');
-        var path = window.location.pathname;
-        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-            $(e).children('p').addClass('active');
-        });
-    })();
-</script>
-
-
-  </div>
-</div>
-<script>
-  window.addEventListener('scroll', function (e) {
-    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    var background_blur = document.getElementById('menu-blur');
-    background_blur.style.opacity = (scroll / 300);
-  });
-</script>
-
+<div
+  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
   
-  <div class="relative flex flex-col grow">
-    <main id="main-content" class="grow">
+  
+
+  <div class="flex flex-1 items-center justify-between">
+    <nav class="flex space-x-3">
       
+        <a href="/" class="text-base font-medium">
+          Rafael Yu&rsquo;s Blog
+        </a>
+      
+    </nav>
+    
+  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+    
+      
+        
+  <a
+  href="/posts/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Blog"
+  title="Posts">
+  
+  
+    <p class="text-base font-medium">
+      Blog
+    </p>
+  
+</a>
 
 
-<article>
+
+      
+        
+  <a
+  href="/tags/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Tags"
+  title="Tags">
   
   
+    <p class="text-base font-medium">
+      Tags
+    </p>
   
-  
-  
-  
- 
-  
-   
-  
- 
+</a>
 
 
 
-<div id="hero" class="h-[150px] md:h-[200px]"></div>
+      
+        
+  <a
+  href="/about/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="About"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      About
+    </p>
+  
+</a>
 
 
+
+      
+    
 
     
-    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/image_huc1f0cd296ac82129848c3e7a63eef4fa_884409_1200x0_resize_q75_box.jpg);">
+
     
 
+    
+      <button
+        id="search-button"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
 
-    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    
+      <div class=" flex items-center">
+        <button
+          id="appearance-switcher"
+          aria-label="Dark mode switcher"
+          type="button"
+          class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+          <div class="flex items-center justify-center dark:hidden">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div class="items-center justify-center hidden dark:flex">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </nav>
+
+    
+  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+    <span></span>
+
+    
+
+    
+
+    
+      <button
+        id="search-button-mobile"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <button
+        id="appearance-switcher-mobile"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400 me-1">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    
+  </div>
+
+  </div>
+  
+  <div class="-my-2 md:hidden">
+    <div id="menu-button" class="block">
+      
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
+          <ul
+            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
+            <li id="menu-close-button">
+              <span
+                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+              </span>
+            </li>
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/posts/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Blog"
+    title="Posts">
+    
+    
+      <p class="text-bg font-bg">
+        Blog
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/tags/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Tags"
+    title="Tags">
+    
+    
+      <p class="text-bg font-bg">
+        Tags
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/about/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="About"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        About
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+
+          </ul>
+          
+        </div>
+      
     </div>
-    <div
-        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
-    </div>
+  </div>
+
 </div>
 
-<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
-<script>
-    window.addEventListener('scroll', function (e) {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var background_blur = document.getElementById('background-blur');
-        background_blur.style.opacity = (scroll / 300)
-    });
-</script>
+
+
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.00a57c73ea12f2cab2980c3c3d649e89f6d82f190f74bbe2b67f2f5e39ab7d032ece47086400ca05396758aace13299da49aca43ea643d2625e62c506267a169.js"
+  integrity="sha512-AKV8c&#43;oS8sqymAw8PWSeifbYLxkPdLvitn8vXjmrfQMuzkcIZADKBTlnWKrOEymdpJrKQ&#43;pkPSYl5ixQYmehaQ=="
+  data-blur-id="menu-blur"></script>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+      
+      
+      
+      
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
 
   
   
 
-  <header id="single_header" class="mt-5 max-w-prose">
+
+
+
+  
+
+
+
+
+
+      
     
-    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
   
     
   
     
   
-  <li class="inline hidden">
-    <a
-      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/"
+  <li class="hidden">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/"
       >Rafael Yu&#39;s Blog</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
   
-  <li class="inline ">
-    <a
-      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/"
+  <li class="inline">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/posts/"
       >Posts</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
   
-  <li class="inline hidden">
-    <a
-      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/llm-parameters/"
+  <li class="hidden">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/posts/llm-parameters/"
       >LLM Parameters</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
@@ -667,474 +685,313 @@
 </ol>
 
 
-    
-    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      LLM Parameters
-    </h1>
-    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-07-14 00:00:00 &#43;0000 UTC">14 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2050 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
-  
-  
-    
-    
-      
-      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        LLM Parameters
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
-        
-      
-      
-    
-  
-  <span id="views_posts\llm-parameters.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
-  <span class="inline-block align-text-bottom">
 
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
-  </span>
 
-</span>
-</span><span class="px-2 text-primary-500">&middot;</span><span>
+
+
+
   
   
-    
-    
-      
-      
-        
-        
-      
-      
-    
-  
-  <span id="likes_posts\llm-parameters.md"
-    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
-    title="likes">loading</span>
-  <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
-  </span>
-
-</span>
-</span><span class="px-2 text-primary-500">&middot;</span><span>
-    <button id="button_likes"
-        class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-        onclick="process_article()">
-        <span id="button_likes_heart" style="display:none" class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
-  </span>
-
- </span>
-        <span id="button_likes_emtpty_heart" class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M244 84L255.1 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 0 232.4 0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84C243.1 84 244 84.01 244 84L244 84zM255.1 163.9L210.1 117.1C188.4 96.28 157.6 86.4 127.3 91.44C81.55 99.07 48 138.7 48 185.1V190.9C48 219.1 59.71 246.1 80.34 265.3L256 429.3L431.7 265.3C452.3 246.1 464 219.1 464 190.9V185.1C464 138.7 430.4 99.07 384.7 91.44C354.4 86.4 323.6 96.28 301.9 117.1L255.1 163.9z"/></svg>
-  </span>
-
-</span>
-        <span id="button_likes_text">&nbsp;Like</span>
-    </button>
-</span><span class="px-2 text-primary-500">&middot;</span>
 
 
-<script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
 
-<span class="mb-[2px]">
-    <span id="zen-mode-button"
-          class="text-lg hover:text-primary-500"
-          title="Enable zen mode"
-          data-title-i18n-disable="Enable zen mode"
-          data-title-i18n-enable="Disable zen mode">
-        <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
-    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
-</svg>
-  </span>
-
-</span>
-    </span>
-</span>
   
 
   
   
-</div>
+  
 
-
-
-
-
-
-
-    </div>
-
-    
-    
-    
-    
-    
-
-    
-
-    
-      
-      
-        
-        
-<div class="flex author">
+  
   
     
-    
-      
-    
-    
-      
-        
-      
-      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt=" Author" src="/img/author_hu92cbf66360379bce2a62170eff728e88_3739597_192x192_fill_q75_box_center.jpg" />
+  
+
+  
     
   
-  <div class="place-self-center">
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
     
     
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">Curious</div>
+      <time datetime="2024-07-14T00:00:00&#43;00:00">14 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2325 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
-    <div class="text-2xl sm:text-lg">
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+
     
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://x.com/wangye1644294"
-          target="_blank"
-          aria-label="X-Twitter"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
-  </span>
-
-</span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://github.com/FableFatale"
-          target="_blank"
-          aria-label="Github"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-
-  </span>
-
-</span></a
-        >
-      
     
   </div>
 
-</div>
-  </div>
-</div>
-
-      
-
-      
-
-      
-      <div class="mb-5"></div>
-      
-
-    
-
-  </header>
   
-  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-    
-     <div
-      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
 
-         <details open id="TOCView"
-  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#inference-parameters">Inference-Parameters</a></li>
-    <li><a href="#tranining-parameters">Tranining parameters</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#inference-parameters">Inference-Parameters</a></li>
-    <li><a href="#tranining-parameters">Tranining parameters</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-
-<script>
-
-  var margin = 200;
-  var marginError = 50;
-
-  (function () {
-    var $window = $(window);
-    var $toc = $('#TOCView');
-    var tocHeight = $toc.height();
-
-    function onResize() {
-      var windowAndMarginHeight = $window.height() - margin;
-      if(tocHeight >= windowAndMarginHeight) {
-        $toc.css("overflow-y", "scroll")
-        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
-      } else {
-        $toc.css("overflow-y", "hidden")
-        $toc.css("max-height", "9999999px")
-      }
-    }
-
-    $window.on('resize', onResize);
-    $(document).ready(onResize);
-  })();
-
-
-
-  (function () {
-    var $toc = $('#TableOfContents');
-    if ($toc.length > 0) {
-      var $window = $(window);
-
-      function onScroll() {
-        var currentScroll = $window.scrollTop();
-        var h = $('.anchor');
-        var id = "";
-        h.each(function (i, e) {
-          e = $(e);
-          if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = decodeURIComponent(e.attr('id'));
-          }
-        });
-        var active = $toc.find('a.active');      
-        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-        active.each(function (i, e) {
-           
-            $(e).removeClass('active').siblings('ul').hide();
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
           
-        });
-        $toc.find('a[href="#' + id + '"]').addClass('active')
-        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
-          $(e).children('a').parents('ul').show();          
-        });
-      }
-
-      $window.on('scroll', onScroll);
-      $(document).ready(function () {
-         
-          $toc.find('a').parent('li').find('ul').hide();
         
-        onScroll();
-      });
-    }
-  })();
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/prompt/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Prompt
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/llm/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    LLM
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/gpt/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Gpt
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
 
 
-</script>
-   </div>
+
       </div>
       
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#inference-parameters">Inference-Parameters</a></li>
+    <li><a href="#tranining-parameters">Tranining parameters</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#inference-parameters">Inference-Parameters</a></li>
+    <li><a href="#tranining-parameters">Tranining parameters</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+
+            
+          </div>
+        </div>
+      
+
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
-        
-
 
         <div class="article-content max-w-prose mb-20">
-          <p>
-  <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202407141631753.jpg" alt="featured" />
-    
-  </figure>
+          <p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="featured"
+    src="https://raw.githubusercontent.com/FableFatale/typora/main/img/202407141631753.jpg"
+    ></figure>
 </p>
 
-
-<h1 class="relative group">This is an introduction to the LLM parameters. 
+<h1 class="relative group">This is an introduction to the LLM parameters.
     <div id="this-is-an-introduction-to-the-llm-parameters" class="anchor"></div>
     
     <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-an-introduction-to-the-llm-parameters" aria-label="Anchor">#</a>
-    </span>        
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#this-is-an-introduction-to-the-llm-parameters" aria-label="Anchor">#</a>
+    </span>
     
 </h1>
 
-
-<h2 class="relative group">Inference-Parameters 
+<h2 class="relative group">Inference-Parameters
     <div id="inference-parameters" class="anchor"></div>
     
     <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#inference-parameters" aria-label="Anchor">#</a>
-    </span>        
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#inference-parameters" aria-label="Anchor">#</a>
+    </span>
     
 </h2>
-<ol>
-<li>
+<ul>
+<li></li>
+</ul>
 <p><strong>Temperature(Default 1 RANGE 0-2)</strong></p>
-<p>high temperature will enhance  llm&rsquo;s personal, less temperature  will keep llm&rsquo;s  level</p>
-<p>for instance: while temperature =1.0, llm&rsquo;s behavior will more  brave , 0.1 will be stable</p>
+<p>high temperature will enhance llm’s personal, less temperature will keep llm’s level</p>
+<p>for instance: while temperature =1.0, llm’s behavior will more brave , 0.1 will be stable</p>
 <hr>
-<p>A higher temperature setting can enhance the LLM&rsquo;s creativity, while a lower temperature will maintain its consistency.</p>
-<p>For example: When the temperature is set to 1.0, the LLM&rsquo;s responses tend to be more adventurous; at 0.1, they are more conservative.</p>
-</li>
-<li>
-<p><strong>Max Generation Length(Default: Model-dependent,Range 1 to model&rsquo;s maximum)</strong></p>
-<p>Set Max Generation Length can control llm&rsquo;s  input context&rsquo;s length</p>
+<p>A higher temperature setting can enhance the LLM’s creativity, while a lower temperature will maintain its consistency.</p>
+<p>For example: When the temperature is set to 1.0, the LLM’s responses tend to be more adventurous; at 0.1, they are more conservative.</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>Max Generation Length(Default: Model-dependent,Range 1 to model’s maximum)</strong></p>
+<p>Set Max Generation Length can control llm’s input context’s length</p>
 <hr>
 <p>Setting the Maximum Generation Length can control the length of the input context for the LLM.&quot;</p>
-</li>
-<li>
+<ul>
+<li></li>
+</ul>
 <p><strong>Top-K(Default 0 Range 1 to vocabulary,Common Range 40,50)</strong></p>
 <p>Sampling is restricted to the top k highest-probability words. For instance, with k set to 50, the selection is made from among the 50 most likely words.</p>
-</li>
-<li>
+<ul>
+<li></li>
+</ul>
 <p><strong>Top-p(Default 1 Range0-1 ,Common 0.9,0.95)</strong></p>
 <p>Sampling is conducted from the pool of words until their cumulative probability reaches p. For example, with p set to 0.9, the selection is made from among the words whose combined probabilities account for 90% of the total.</p>
-</li>
-<li>
+<ul>
+<li></li>
+</ul>
 <p><strong>Repetion Penalty(Default 1 Range 1.0- 2.0)</strong></p>
 <p>To mitigate the likelihood of generating repetitive words, a higher repetition penalty Range can be applied, which effectively reduces the occurrence of redundant content in the text.</p>
-</li>
-<li>
+<ul>
+<li></li>
+</ul>
 <p><strong>Beam Searth(Default 1,Range 1 to 10)</strong></p>
 <p>Beam Search is a heuristic search algorithm that maintains multiple candidate sequences during generation, ultimately selecting the most optimal text output. Key parameters for this algorithm include the Beam Width, which determines the number of candidates retained at each step.</p>
-</li>
-<li>
+<ul>
+<li></li>
+</ul>
 <p><strong>Length Penalty</strong></p>
-<p>Length Penalty is a setting used in text generation to help the model create text that&rsquo;s not too short or too long. It works by adjusting the score of a generated text based on its length. Example: Imagine you&rsquo;re asking a computer to write a summary of a book. Without Length Penalty, the summary might be too short and miss important points, or it might be too long and include unnecessary details. By using Length Penalty, you can tell the computer to aim for a summary that&rsquo;s just the right length, so it includes all the key information without extra fluff.</p>
-</li>
-<li>
+<p>Length Penalty is a setting used in text generation to help the model create text that’s not too short or too long. It works by adjusting the score of a generated text based on its length. Example: Imagine you’re asking a computer to write a summary of a book. Without Length Penalty, the summary might be too short and miss important points, or it might be too long and include unnecessary details. By using Length Penalty, you can tell the computer to aim for a summary that’s just the right length, so it includes all the key information without extra fluff.</p>
+<ul>
+<li></li>
+</ul>
 <p><strong>frequency_penalty(Default 0 Range -2.0- +2.0)</strong></p>
-<p>Description: Penalizes words based on their frequency in the generated text, reducing repetition.
-Example: When set to 1.0, common words are used less often, resulting in more diverse text.</p>
-</li>
-<li>
+<p>Description: Penalizes words based on their frequency in the generated text, reducing repetition. Example: When set to 1.0, common words are used less often, resulting in more diverse text.</p>
+<ul>
+<li></li>
+</ul>
 <p><strong>presence_penalty(Default 0 Range -2.0- +2.0)</strong></p>
-<p>Description: Penalizes words that have already appeared in the text, encouraging the use of new words.
-Example: When set to 1.5, the model tends to use words that haven&rsquo;t appeared yet, increasing text diversity.</p>
-</li>
-<li>
+<p>Description: Penalizes words that have already appeared in the text, encouraging the use of new words. Example: When set to 1.5, the model tends to use words that haven’t appeared yet, increasing text diversity.</p>
+<ul>
+<li></li>
+</ul>
 <p><strong>stop(Range:String or String list)</strong></p>
-<p>Description: Specifies one or more tokens at which to stop generation.
-Example: When set to [&quot;.&quot;, &ldquo;!&rdquo;, &ldquo;?&rdquo;], the model will stop generating after producing these punctuation marks.</p>
-</li>
-<li>
+<p>Description: Specifies one or more tokens at which to stop generation. Example: When set to [&quot;.&quot;, “!”, “?”], the model will stop generating after producing these punctuation marks.</p>
+<ul>
+<li></li>
+</ul>
 <p><strong>n (Default 1)</strong></p>
-<p>Description: Specifies how many completions to generate.
-Example: When set to 3, the model will generate 3 different responses.</p>
-</li>
-<li>
+<p>Description: Specifies how many completions to generate. Example: When set to 3, the model will generate 3 different responses.</p>
+<ul>
+<li></li>
+</ul>
 <p><strong>best_of</strong></p>
-<p>Description: Generates multiple candidate results and returns the best n.
-Example: With n=2 and best_of=5, the model generates 5 candidate results and returns the 2 best ones.</p>
-</li>
-<li>
+<p>Description: Generates multiple candidate results and returns the best n. Example: With n=2 and best_of=5, the model generates 5 candidate results and returns the 2 best ones.</p>
+<ul>
+<li></li>
+</ul>
 <p><strong>logprobs</strong></p>
-<p>Description: Returns the most likely tokens and their log probabilities.
-Example: When set to 3, each generated token will be accompanied by the 3 most likely alternative options and their probabilities.</p>
-</li>
-<li>
+<p>Description: Returns the most likely tokens and their log probabilities. Example: When set to 3, each generated token will be accompanied by the 3 most likely alternative options and their probabilities.</p>
+<ul>
+<li></li>
+</ul>
 <p><strong>no_repeat_ngram_size</strong></p>
-<p>Description: Prevents repetition of specified length word groups.
-Example: When set to 3, the model avoids generating any consecutive repetition of three-word combinations.</p>
-</li>
-</ol>
+<p>Description: Prevents repetition of specified length word groups. Example: When set to 3, the model avoids generating any consecutive repetition of three-word combinations.</p>
 <blockquote>
+</blockquote>
 <p>[!CAUTION]</p>
 <p>These parameters can be used together, but with some limitations:</p>
-<ol>
+<ul>
 <li>Some parameters work against each other, like high temperature with strict top-k/top-p.</li>
 <li>Beam search often overrides other sampling methods.</li>
 <li>Using many complex parameters at once can slow down generation.</li>
@@ -1142,267 +999,132 @@ Example: When set to 3, the model avoids generating any consecutive repetition o
 <li>Some parameters have specific Range ranges (e.g., temperature is usually 0-2).</li>
 <li>Different tasks may need different parameter combinations.</li>
 <li>Stop conditions usually take priority over other parameters.</li>
-</ol>
+</ul>
 <p>Best practice:</p>
 <ul>
 <li>Start with defaults</li>
 <li>Adjust one parameter at a time</li>
 <li>Test thoroughly</li>
-<li>Keep notes on what works best</li>
+<li>Keep notes on what works best参数名称
+Parameter Name默认值
+Default Value取值范围
+Range描述
+DescriptionTemperature
+温度10-2控制输出的随机性和创造性。较高值增加创造性，较低值增加一致性。
+Controls randomness and creativity of output. Higher values increase creativity, lower values increase consistency.Max Generation Length
+最大生成长度模型相关
+Model-dependent1 到模型最大值
+1 to model’s maximum控制LLM输入上下文的长度。
+Controls the length of the input context for the LLM.Top-K
+前K个01 到词汇表大小
+1 to vocabulary size限制采样到概率最高的K个词。常用范围40-50。
+Restricts sampling to top K highest-probability words. Common range 40-50.Top-p
+前p个10-1从累积概率达到p的词池中采样。常用值0.9, 0.95。
+Samples from words until cumulative probability reaches p. Common values 0.9, 0.95.Repetition Penalty
+重复惩罚11.0-2.0降低重复词的生成概率，减少冗余内容。
+Reduces likelihood of generating repetitive words, decreasing redundant content.Beam Search
+束搜索11-10保持多个候选序列，选择最优输出。关键参数包括Beam Width。
+Maintains multiple candidate sequences, selects optimal output. Key parameter includes Beam Width.Length Penalty
+长度惩罚1.0通常0.0到2.0
+Usually 0.0 to 2.0根据长度调整生成文本的分数，控制输出长度。
+Adjusts the score of generated text based on its length, controlling output length.frequency_penalty
+频率惩罚0-2.0 到 2.0
+-2.0 to 2.0根据词频对令牌进行惩罚。
+Penalizes tokens based on their frequency.presence_penalty
+存在惩罚0-2.0 到 2.0
+-2.0 to 2.0根据是否出现过对令牌进行惩罚。
+Penalizes tokens based on their presence.stop
+停止无
+None字符串或字符串列表
+String or String list指定停止生成的标记。
+Specifies tokens at which to stop generation.n
+数量1正整数
+Positive integer生成多少个完成结果。
+Number of completions to generate.best_of
+最佳数量1正整数，大于等于n
+Positive integer, ≥ n生成多个候选结果并返回最佳的n个。
+Generate multiple candidates and return the best n.logprobs
+对数概率null非负整数（通常0-5）
+Non-negative integer (usually 0-5)返回最可能的令牌及其对数概率。
+Return log probabilities of the most likely tokens.no_repeat_ngram_size
+不重复n元组大小0正整数
+Positive integer防止重复指定长度的n元组。
+Prevent repetition of n-grams of specified length.</li>
 </ul>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>参数名称<br>Parameter Name</th>
-<th>默认值<br>Default Value</th>
-<th>取值范围<br>Range</th>
-<th>描述<br>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Temperature<br>温度</td>
-<td>1</td>
-<td>0-2</td>
-<td>控制输出的随机性和创造性。较高值增加创造性，较低值增加一致性。<br>Controls randomness and creativity of output. Higher values increase creativity, lower values increase consistency.</td>
-</tr>
-<tr>
-<td>Max Generation Length<br>最大生成长度</td>
-<td>模型相关<br>Model-dependent</td>
-<td>1 到模型最大值<br>1 to model&rsquo;s maximum</td>
-<td>控制LLM输入上下文的长度。<br>Controls the length of the input context for the LLM.</td>
-</tr>
-<tr>
-<td>Top-K<br>前K个</td>
-<td>0</td>
-<td>1 到词汇表大小<br>1 to vocabulary size</td>
-<td>限制采样到概率最高的K个词。常用范围40-50。<br>Restricts sampling to top K highest-probability words. Common range 40-50.</td>
-</tr>
-<tr>
-<td>Top-p<br>前p个</td>
-<td>1</td>
-<td>0-1</td>
-<td>从累积概率达到p的词池中采样。常用值0.9, 0.95。<br>Samples from words until cumulative probability reaches p. Common values 0.9, 0.95.</td>
-</tr>
-<tr>
-<td>Repetition Penalty<br>重复惩罚</td>
-<td>1</td>
-<td>1.0-2.0</td>
-<td>降低重复词的生成概率，减少冗余内容。<br>Reduces likelihood of generating repetitive words, decreasing redundant content.</td>
-</tr>
-<tr>
-<td>Beam Search<br>束搜索</td>
-<td>1</td>
-<td>1-10</td>
-<td>保持多个候选序列，选择最优输出。关键参数包括Beam Width。<br>Maintains multiple candidate sequences, selects optimal output. Key parameter includes Beam Width.</td>
-</tr>
-<tr>
-<td>Length Penalty<br>长度惩罚</td>
-<td>1.0</td>
-<td>通常0.0到2.0<br>Usually 0.0 to 2.0</td>
-<td>根据长度调整生成文本的分数，控制输出长度。<br>Adjusts the score of generated text based on its length, controlling output length.</td>
-</tr>
-<tr>
-<td>frequency_penalty<br>频率惩罚</td>
-<td>0</td>
-<td>-2.0 到 2.0<br>-2.0 to 2.0</td>
-<td>根据词频对令牌进行惩罚。<br>Penalizes tokens based on their frequency.</td>
-</tr>
-<tr>
-<td>presence_penalty<br>存在惩罚</td>
-<td>0</td>
-<td>-2.0 到 2.0<br>-2.0 to 2.0</td>
-<td>根据是否出现过对令牌进行惩罚。<br>Penalizes tokens based on their presence.</td>
-</tr>
-<tr>
-<td>stop<br>停止</td>
-<td>无<br>None</td>
-<td>字符串或字符串列表<br>String or String list</td>
-<td>指定停止生成的标记。<br>Specifies tokens at which to stop generation.</td>
-</tr>
-<tr>
-<td>n<br>数量</td>
-<td>1</td>
-<td>正整数<br>Positive integer</td>
-<td>生成多少个完成结果。<br>Number of completions to generate.</td>
-</tr>
-<tr>
-<td>best_of<br>最佳数量</td>
-<td>1</td>
-<td>正整数，大于等于n<br>Positive integer, ≥ n</td>
-<td>生成多个候选结果并返回最佳的n个。<br>Generate multiple candidates and return the best n.</td>
-</tr>
-<tr>
-<td>logprobs<br>对数概率</td>
-<td>null</td>
-<td>非负整数（通常0-5）<br>Non-negative integer (usually 0-5)</td>
-<td>返回最可能的令牌及其对数概率。<br>Return log probabilities of the most likely tokens.</td>
-</tr>
-<tr>
-<td>no_repeat_ngram_size<br>不重复n元组大小</td>
-<td>0</td>
-<td>正整数<br>Positive integer</td>
-<td>防止重复指定长度的n元组。<br>Prevent repetition of n-grams of specified length.</td>
-</tr>
-</tbody>
-</table>
 
-
-<h2 class="relative group">Tranining parameters 
+<h2 class="relative group">Tranining parameters
     <div id="tranining-parameters" class="anchor"></div>
     
     <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#tranining-parameters" aria-label="Anchor">#</a>
-    </span>        
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tranining-parameters" aria-label="Anchor">#</a>
+    </span>
     
 </h2>
-<ol>
-<li><strong>Learning Rate:</strong>
-Explanation: Controls the step size at each iteration while moving toward a minimum of the loss function.
-Example: 0.0001 (1e-4)</li>
-<li><strong>Batch Size:</strong>
-Explanation: The number of training examples used in one iteration.
-Example: 32, 64, 128</li>
-<li><strong>Optimizer</strong>:
-Explanation: Algorithm used to update the model&rsquo;s weights.
-Example: Adam, SGD, RMSprop</li>
-<li><strong>Epochs:</strong>
-Explanation: The number of complete passes through the entire training dataset.
-Example: 10, 50, 100</li>
-<li><strong>Weight Initialization:</strong>
-Explanation: Method used to set the initial random weights of the neural network.
-Example: Xavier initialization, He initialization</li>
-<li><strong>Regularization:</strong>
-Explanation: Techniques to prevent overfitting.
-Example: L2 regularization (weight decay = 0.01), Dropout (rate = 0.1)</li>
-<li><strong>Learning Rate Scheduler:</strong>
-Explanation: Strategy to adjust the learning rate during training.
-Example: StepLR (step_size=30, gamma=0.1), CosineAnnealingLR</li>
-<li><strong>Model Architecture:</strong>
-Explanation: The structure and size of the neural network.
-Example: Transformer with 12 layers, 768 hidden size, 12 attention heads</li>
-<li><strong>Sequence Length:</strong>
-Explanation: The maximum length of input sequences.
-Example: 512, 1024, 2048 tokens</li>
-<li><strong>Warmup Steps:</strong>
-Explanation: Number of steps to gradually increase the learning rate at the start of training.
-Example: 1000 steps</li>
-<li><strong>Gradient Clipping:</strong>
-Explanation: Technique to prevent exploding gradients by limiting their magnitude.
-Example: max_norm=1.0</li>
-<li><strong>Mixed Precision Training</strong>:
-Explanation: Using lower precision (e.g., float16) to speed up training and reduce memory usage.
-Example: Enabled with float16</li>
-<li><strong>Distributed Training Strategy</strong>:
-Explanation: Method for training across multiple GPUs or nodes.
-Example: Data Parallel, Model Parallel</li>
-<li><strong>Attention Dropout:</strong>
-Explanation: Dropout rate specifically for attention layers.
-Example: 0.1</li>
-<li><strong>Activation Function:</strong>
-Explanation: Non-linear function applied to neuron outputs.
-Example: ReLU, GELU</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Explanation</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Learning Rate<br>学习率</td>
-<td>Controls the step size at each iteration while moving toward a minimum of the loss function.<br>控制每次迭代时参数更新的步长。</td>
-<td>0.0001 (1e-4)</td>
-</tr>
-<tr>
-<td>Batch Size<br>批量大小</td>
-<td>The number of training examples used in one iteration.<br>每次迭代中使用的训练样本数量。</td>
-<td>32, 64, 128</td>
-</tr>
-<tr>
-<td>Optimizer<br>优化器</td>
-<td>Algorithm used to update the model&rsquo;s weights.<br>用于更新模型权重的算法。</td>
-<td>Adam, SGD, RMSprop</td>
-</tr>
-<tr>
-<td>Epochs<br>训练轮数</td>
-<td>The number of complete passes through the entire training dataset.<br>完整遍历整个训练数据集的次数。</td>
-<td>10, 50, 100</td>
-</tr>
-<tr>
-<td>Weight Initialization<br>权重初始化</td>
-<td>Method used to set the initial random weights of the neural network.<br>设置神经网络初始随机权重的方法。</td>
-<td>Xavier initialization<br>He initialization</td>
-</tr>
-<tr>
-<td>Regularization<br>正则化</td>
-<td>Techniques to prevent overfitting.<br>防止过拟合的技术。</td>
-<td>L2 regularization (weight decay = 0.01)<br>Dropout (rate = 0.1)</td>
-</tr>
-<tr>
-<td>Learning Rate Scheduler<br>学习率调度器</td>
-<td>Strategy to adjust the learning rate during training.<br>在训练过程中调整学习率的策略。</td>
-<td>StepLR (step_size=30, gamma=0.1)<br>CosineAnnealingLR</td>
-</tr>
-<tr>
-<td>Model Architecture<br>模型架构</td>
-<td>The structure and size of the neural network.<br>神经网络的结构和大小。</td>
-<td>Transformer with 12 layers, 768 hidden size, 12 attention heads</td>
-</tr>
-<tr>
-<td>Sequence Length<br>序列长度</td>
-<td>The maximum length of input sequences.<br>输入序列的最大长度。</td>
-<td>512, 1024, 2048 tokens</td>
-</tr>
-<tr>
-<td>Warmup Steps<br>预热步数</td>
-<td>Number of steps to gradually increase the learning rate at the start of training.<br>训练开始时逐步增加学习率的步数。</td>
-<td>1000 steps</td>
-</tr>
-<tr>
-<td>Gradient Clipping<br>梯度裁剪</td>
-<td>Technique to prevent exploding gradients by limiting their magnitude.<br>通过限制梯度幅度来防止梯度爆炸的技术。</td>
-<td>max_norm=1.0</td>
-</tr>
-<tr>
-<td>Mixed Precision Training<br>混合精度训练</td>
-<td>Using lower precision (e.g., float16) to speed up training and reduce memory usage.<br>使用较低精度（如float16）来加速训练并减少内存使用。</td>
-<td>Enabled with float16</td>
-</tr>
-<tr>
-<td>Distributed Training Strategy<br>分布式训练策略</td>
-<td>Method for training across multiple GPUs or nodes.<br>跨多个GPU或节点进行训练的方法。</td>
-<td>Data Parallel, Model Parallel</td>
-</tr>
-<tr>
-<td>Attention Dropout<br>注意力丢弃率</td>
-<td>Dropout rate specifically for attention layers.<br>专门用于注意力层的丢弃率。</td>
-<td>0.1</td>
-</tr>
-<tr>
-<td>Activation Function<br>激活函数</td>
-<td>Non-linear function applied to neuron outputs.<br>应用于神经元输出的非线性函数。</td>
-<td>ReLU, GELU</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li>**Learning Rate:**Explanation: Controls the step size at each iteration while moving toward a minimum of the loss function. Example: 0.0001 (1e-4)</li>
+<li>**Batch Size:**Explanation: The number of training examples used in one iteration. Example: 32, 64, 128</li>
+<li><strong>Optimizer</strong>: Explanation: Algorithm used to update the model’s weights. Example: Adam, SGD, RMSprop</li>
+<li>**Epochs:**Explanation: The number of complete passes through the entire training dataset. Example: 10, 50, 100</li>
+<li>**Weight Initialization:**Explanation: Method used to set the initial random weights of the neural network. Example: Xavier initialization, He initialization</li>
+<li>**Regularization:**Explanation: Techniques to prevent overfitting. Example: L2 regularization (weight decay = 0.01), Dropout (rate = 0.1)</li>
+<li>**Learning Rate Scheduler:**Explanation: Strategy to adjust the learning rate during training. Example: StepLR (step_size=30, gamma=0.1), CosineAnnealingLR</li>
+<li>**Model Architecture:**Explanation: The structure and size of the neural network. Example: Transformer with 12 layers, 768 hidden size, 12 attention heads</li>
+<li>**Sequence Length:**Explanation: The maximum length of input sequences. Example: 512, 1024, 2048 tokens</li>
+<li>**Warmup Steps:**Explanation: Number of steps to gradually increase the learning rate at the start of training. Example: 1000 steps</li>
+<li>**Gradient Clipping:**Explanation: Technique to prevent exploding gradients by limiting their magnitude. Example: max_norm=1.0</li>
+<li><strong>Mixed Precision Training</strong>: Explanation: Using lower precision (e.g., float16) to speed up training and reduce memory usage. Example: Enabled with float16</li>
+<li><strong>Distributed Training Strategy</strong>: Explanation: Method for training across multiple GPUs or nodes. Example: Data Parallel, Model Parallel</li>
+<li>**Attention Dropout:**Explanation: Dropout rate specifically for attention layers. Example: 0.1</li>
+<li>**Activation Function:**Explanation: Non-linear function applied to neuron outputs. Example: ReLU, GELUParameterExplanationExampleLearning Rate
+学习率Controls the step size at each iteration while moving toward a minimum of the loss function.
+控制每次迭代时参数更新的步长。0.0001 (1e-4)Batch Size
+批量大小The number of training examples used in one iteration.
+每次迭代中使用的训练样本数量。32, 64, 128Optimizer
+优化器Algorithm used to update the model’s weights.
+用于更新模型权重的算法。Adam, SGD, RMSpropEpochs
+训练轮数The number of complete passes through the entire training dataset.
+完整遍历整个训练数据集的次数。10, 50, 100Weight Initialization
+权重初始化Method used to set the initial random weights of the neural network.
+设置神经网络初始随机权重的方法。Xavier initialization
+He initializationRegularization
+正则化Techniques to prevent overfitting.
+防止过拟合的技术。L2 regularization (weight decay = 0.01)
+Dropout (rate = 0.1)Learning Rate Scheduler
+学习率调度器Strategy to adjust the learning rate during training.
+在训练过程中调整学习率的策略。StepLR (step_size=30, gamma=0.1)
+CosineAnnealingLRModel Architecture
+模型架构The structure and size of the neural network.
+神经网络的结构和大小。Transformer with 12 layers, 768 hidden size, 12 attention headsSequence Length
+序列长度The maximum length of input sequences.
+输入序列的最大长度。512, 1024, 2048 tokensWarmup Steps
+预热步数Number of steps to gradually increase the learning rate at the start of training.
+训练开始时逐步增加学习率的步数。1000 stepsGradient Clipping
+梯度裁剪Technique to prevent exploding gradients by limiting their magnitude.
+通过限制梯度幅度来防止梯度爆炸的技术。max_norm=1.0Mixed Precision Training
+混合精度训练Using lower precision (e.g., float16) to speed up training and reduce memory usage.
+使用较低精度（如float16）来加速训练并减少内存使用。Enabled with float16Distributed Training Strategy
+分布式训练策略Method for training across multiple GPUs or nodes.
+跨多个GPU或节点进行训练的方法。Data Parallel, Model ParallelAttention Dropout
+注意力丢弃率Dropout rate specifically for attention layers.
+专门用于注意力层的丢弃率。0.1Activation Function
+激活函数Non-linear function applied to neuron outputs.
+应用于神经元输出的非线性函数。ReLU, GELU</li>
+</ul>
 
+          
+          
+          
         </div>
         
         
 
         
+
         
 
-          
       </div>
-     
+
       
       
         
@@ -1410,74 +1132,57 @@ Example: ReLU, GELU</li>
           
           
         
-      <script>
-        var oid = "views_posts\\llm-parameters.md"
-        var oid_likes = "likes_posts\\llm-parameters.md"
-      </script>
+        
+        
+        <script
+          type="text/javascript"
+          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_posts\LLM-Parameters.md"
+          data-oid-likes="likes_posts\LLM-Parameters.md"></script>
       
-      
-      
-      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
-  
     </section>
-  <footer class="pt-8 max-w-prose print:hidden">
 
     
+    <footer class="pt-8 max-w-prose print:hidden">
+      
   
     
     
     
     <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
       <div class="flex justify-between pt-3">
-        <span>
+        <span class="flex flex-col">
           
-            <a class="flex group mr-3" href="/posts/self-consistency/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Self-Consistency</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-07-14 00:00:00 &#43;0000 UTC">14 July 2024</time>
-                  
-                </span>
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/self-consistency/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Self-Consistency
               </span>
             </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2024-07-14T00:00:00&#43;00:00">14 July 2024</time>
+              </span>
+            
           
         </span>
-        <span>
+        <span class="flex flex-col items-end">
           
-            <a class="flex text-right group ml-3" href="/posts/cot-shot-/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Chain-of-Thought Prompt</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-07-14 00:00:00 &#43;0000 UTC">14 July 2024</time>
-                  
-                </span>
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/chain-of-thought-prompt/">
+              <span class="leading-6">
+                Chain-of-Thought Prompt&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
               </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
             </a>
+            
+              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2024-07-14T00:00:00&#43;00:00">14 July 2024</time>
+              </span>
+            
           
         </span>
       </div>
@@ -1485,115 +1190,98 @@ Example: ReLU, GELU</li>
   
 
 
-    
-  </footer>
-</article>
+      
+    </footer>
+  </article>
 
-      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
-  <a href="#the-top"
-    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="Scroll to top" title="Scroll to top">
+        
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-24 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
     &uarr;
   </a>
 </div>
-    </main><footer id="site-footer" class="py-10 print:hidden">
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
   
   
-    
-    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-      <ul class="flex flex-col list-none sm:flex-row">
-        
-        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href=""
-            title="">
-            
-            
-          </a>
-        </li>
-        
-      </ul>
-    </nav>
     
   
   <div class="flex items-center justify-between">
-
     
     
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      © 2024 Ruiqiang Yu, CC BY-NC 4.0
-    </p>
-    
-
-    
-    
-    <p class="text-xs text-neutral-500 dark:text-neutral-400">
-      
-      
-      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
-    </p>
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2025
+          Rafael Yu
+      </p>
     
 
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
   </div>
-  <script>
-    
-    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
-      margin: 24,
-      background: 'rgba(0,0,0,0.5)',
-      scrollOffset: 0,
-    })
-    
-  </script>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
   
   
-  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  <script
+    type="text/javascript"
+    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
 </footer>
 <div
   id="search-wrapper"
-  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://990325.xyz/"
-  style="z-index:500"
->
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="https://990325.me/">
   <div
     id="search-modal"
-    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
-  >
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
     <header class="relative z-10 flex items-center justify-between flex-none px-2">
       <form class="flex items-center flex-auto min-w-0">
         <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
-          
-
-  <span class="relative block icon">
-    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-
-  </span>
-
-
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
         </div>
         <input
           type="search"
           id="search-query"
           class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
           placeholder="Search"
-          tabindex="0"
-        />
+          tabindex="0">
       </form>
       <button
         id="close-search-button"
         class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-        title="Close (Esc)"
-      >
-        
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-
-  </span>
-
-
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
       </button>
     </header>
     <section class="flex-auto px-2 overflow-auto">
@@ -1604,7 +1292,7 @@ Example: ReLU, GELU</li>
   </div>
 </div>
 
-  </div>
-</body>
-
+    </div>
+  </body>
+  
 </html>
