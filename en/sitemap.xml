@@ -3,214 +3,214 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://990325.me/tags/cs/</loc>
+    <loc>/tags/cs/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/fewshot/</loc>
+    <loc>/tags/fewshot/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/least-to-most-prompting/</loc>
+    <loc>/posts/least-to-most-prompting/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://990325.me/zh-cn/posts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://990325.me/posts/"
-    />
-  </url>
-  <url>
-    <loc>https://990325.me/tags/prompt/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://990325.me/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/"
+      href="/zh-cn/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/"
+      href="/posts/"
     />
   </url>
   <url>
-    <loc>https://990325.me/tags/skills/</loc>
+    <loc>/tags/prompt/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/</loc>
+    <loc>/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/tags/"
+      href="/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/tags/"
+      href="/"
     />
   </url>
   <url>
-    <loc>https://990325.me/tags/ai/</loc>
+    <loc>/tags/skills/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/"
+    />
+  </url>
+  <url>
+    <loc>/tags/ai/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/tags/ai/"
+      href="/zh-cn/tags/ai/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/tags/ai/"
+      href="/tags/ai/"
     />
   </url>
   <url>
-    <loc>https://990325.me/posts/the-architecture-of-a-transformer-model/</loc>
+    <loc>/posts/the-architecture-of-a-transformer-model/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/transformer/</loc>
+    <loc>/tags/transformer/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/use-prompt-to-enhance-your-propmt/</loc>
+    <loc>/posts/use-prompt-to-enhance-your-propmt/</loc>
     <lastmod>2024-08-06T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/chain-of-thought-prompt/</loc>
+    <loc>/posts/chain-of-thought-prompt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/cot/</loc>
+    <loc>/tags/cot/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/gpt/</loc>
+    <loc>/tags/gpt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/llm/</loc>
+    <loc>/tags/llm/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/tags/llm/"
+      href="/zh-cn/tags/llm/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/tags/llm/"
+      href="/tags/llm/"
     />
   </url>
   <url>
-    <loc>https://990325.me/posts/llm-parameters/</loc>
+    <loc>/posts/llm-parameters/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/self-consistency/</loc>
+    <loc>/posts/self-consistency/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/self-consistency/</loc>
+    <loc>/tags/self-consistency/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/flowchat/</loc>
+    <loc>/tags/flowchat/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/with-ai-to-get-a-nice-flow-chat/</loc>
+    <loc>/posts/with-ai-to-get-a-nice-flow-chat/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/few-shot/</loc>
+    <loc>/tags/few-shot/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/few-shot-prompt/</loc>
+    <loc>/posts/few-shot-prompt/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/zero-shot/</loc>
+    <loc>/tags/zero-shot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/zero-shot-prompt/</loc>
+    <loc>/posts/zero-shot-prompt/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/tags/space/</loc>
+    <loc>/tags/space/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://990325.me/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/about/"
+      href="/zh-cn/about/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/about/"
+      href="/about/"
     />
   </url>
   <url>
-    <loc>https://990325.me/authors/</loc>
+    <loc>/authors/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/authors/"
+      href="/zh-cn/authors/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/authors/"
+      href="/authors/"
     />
   </url>
   <url>
-    <loc>https://990325.me/categories/</loc>
+    <loc>/categories/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/categories/"
+      href="/zh-cn/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/categories/"
+      href="/categories/"
     />
   </url>
   <url>
-    <loc>https://990325.me/series/</loc>
+    <loc>/series/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://990325.me/zh-cn/series/"
+      href="/zh-cn/series/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://990325.me/series/"
+      href="/series/"
     />
   </url>
 </urlset>

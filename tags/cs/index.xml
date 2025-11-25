@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cs on Rafael Yu&#39;s Blog</title>
-    <link>https://990325.me/tags/cs/</link>
+    <link>/tags/cs/</link>
     <description>Recent content in Cs on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Rafael Yu</copyright>
-    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://990325.me/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>LEAST-TO-MOST PROMPTING</title>
-      <link>https://990325.me/posts/least-to-most-prompting/</link>
+      <link>/posts/least-to-most-prompting/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/least-to-most-prompting/</guid>
+      <guid>/posts/least-to-most-prompting/</guid>
       <description>&lt;p&gt;Essentially it’s a 2 step method (although you can use a single prompt in some settings):&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>The architecture of a transformer model</title>
-      <link>https://990325.me/posts/the-architecture-of-a-transformer-model/</link>
+      <link>/posts/the-architecture-of-a-transformer-model/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/the-architecture-of-a-transformer-model/</guid>
+      <guid>/posts/the-architecture-of-a-transformer-model/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;The Transformer Model: Revolutionizing Natural Language Processing
     &lt;div id=&#34;the-transformer-model-revolutionizing-natural-language-processing&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -40,10 +40,10 @@
     
     <item>
       <title>Use prompt to enhance your propmt</title>
-      <link>https://990325.me/posts/use-prompt-to-enhance-your-propmt/</link>
+      <link>/posts/use-prompt-to-enhance-your-propmt/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/use-prompt-to-enhance-your-propmt/</guid>
+      <guid>/posts/use-prompt-to-enhance-your-propmt/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Analyze the following prompt idea: [insert prompt idea]~Rewrite the prompt for clarity and effectiveness~Identify potential improvements or additions~Refine the prompt based on identified improvements~Present the final optimized prompt
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example:&lt;/p&gt;</description>
       
@@ -51,10 +51,10 @@
     
     <item>
       <title>Chain-of-Thought Prompt</title>
-      <link>https://990325.me/posts/chain-of-thought-prompt/</link>
+      <link>/posts/chain-of-thought-prompt/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/chain-of-thought-prompt/</guid>
+      <guid>/posts/chain-of-thought-prompt/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Chain-of-Thought (CoT)
     &lt;div id=&#34;chain-of-thought-cot&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -80,10 +80,10 @@
     
     <item>
       <title>Self-Consistency</title>
-      <link>https://990325.me/posts/self-consistency/</link>
+      <link>/posts/self-consistency/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/self-consistency/</guid>
+      <guid>/posts/self-consistency/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Self-Consistency
     &lt;div id=&#34;self-consistency&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -99,20 +99,20 @@
     
     <item>
       <title>With AI to get a nice flow chat</title>
-      <link>https://990325.me/posts/with-ai-to-get-a-nice-flow-chat/</link>
+      <link>/posts/with-ai-to-get-a-nice-flow-chat/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/with-ai-to-get-a-nice-flow-chat/</guid>
+      <guid>/posts/with-ai-to-get-a-nice-flow-chat/</guid>
       <description>&lt;p&gt;How can you get or update a flow chat with AI&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Few-Shot Prompt</title>
-      <link>https://990325.me/posts/few-shot-prompt/</link>
+      <link>/posts/few-shot-prompt/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/few-shot-prompt/</guid>
+      <guid>/posts/few-shot-prompt/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Few-Shot
     &lt;div id=&#34;few-shot&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -138,10 +138,10 @@
     
     <item>
       <title>Zero-Shot Prompt</title>
-      <link>https://990325.me/posts/zero-shot-prompt/</link>
+      <link>/posts/zero-shot-prompt/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://990325.me/posts/zero-shot-prompt/</guid>
+      <guid>/posts/zero-shot-prompt/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Zero-Shot
     &lt;div id=&#34;zero-shot&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
