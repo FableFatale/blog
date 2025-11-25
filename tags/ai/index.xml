@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Rafael Yu&#39;s Blog</title>
-    <link>/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in AI on Rafael Yu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Rafael Yu</copyright>
-    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The architecture of a transformer model</title>
-      <link>/posts/the-architecture-of-a-transformer-model/</link>
+      <link>http://localhost:1313/posts/the-architecture-of-a-transformer-model/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/the-architecture-of-a-transformer-model/</guid>
+      <guid>http://localhost:1313/posts/the-architecture-of-a-transformer-model/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;The Transformer Model: Revolutionizing Natural Language Processing
     &lt;div id=&#34;the-transformer-model-revolutionizing-natural-language-processing&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -30,10 +30,10 @@
     
     <item>
       <title>Use prompt to enhance your propmt</title>
-      <link>/posts/use-prompt-to-enhance-your-propmt/</link>
+      <link>http://localhost:1313/posts/use-prompt-to-enhance-your-propmt/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/use-prompt-to-enhance-your-propmt/</guid>
+      <guid>http://localhost:1313/posts/use-prompt-to-enhance-your-propmt/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Analyze the following prompt idea: [insert prompt idea]~Rewrite the prompt for clarity and effectiveness~Identify potential improvements or additions~Refine the prompt based on identified improvements~Present the final optimized prompt
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example:&lt;/p&gt;</description>
       
@@ -41,10 +41,10 @@
     
     <item>
       <title>With AI to get a nice flow chat</title>
-      <link>/posts/with-ai-to-get-a-nice-flow-chat/</link>
+      <link>http://localhost:1313/posts/with-ai-to-get-a-nice-flow-chat/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/with-ai-to-get-a-nice-flow-chat/</guid>
+      <guid>http://localhost:1313/posts/with-ai-to-get-a-nice-flow-chat/</guid>
       <description>&lt;p&gt;How can you get or update a flow chat with AI&lt;/p&gt;</description>
       
     </item>

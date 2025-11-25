@@ -3,214 +3,214 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>/tags/cs/</loc>
+    <loc>http://localhost:1313/tags/cs/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/fewshot/</loc>
+    <loc>http://localhost:1313/tags/fewshot/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/least-to-most-prompting/</loc>
+    <loc>http://localhost:1313/posts/least-to-most-prompting/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="/zh-cn/posts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/posts/"
-    />
-  </url>
-  <url>
-    <loc>/tags/prompt/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/"
+      href="http://localhost:1313/zh-cn/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/"
+      href="http://localhost:1313/posts/"
     />
   </url>
   <url>
-    <loc>/tags/skills/</loc>
+    <loc>http://localhost:1313/tags/prompt/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/tags/"
+      href="http://localhost:1313/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/tags/"
+      href="http://localhost:1313/"
     />
   </url>
   <url>
-    <loc>/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/skills/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/tags/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/tags/ai/"
+      href="http://localhost:1313/zh-cn/tags/ai/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/tags/ai/"
+      href="http://localhost:1313/tags/ai/"
     />
   </url>
   <url>
-    <loc>/posts/the-architecture-of-a-transformer-model/</loc>
+    <loc>http://localhost:1313/posts/the-architecture-of-a-transformer-model/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/transformer/</loc>
+    <loc>http://localhost:1313/tags/transformer/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/use-prompt-to-enhance-your-propmt/</loc>
+    <loc>http://localhost:1313/posts/use-prompt-to-enhance-your-propmt/</loc>
     <lastmod>2024-08-06T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/chain-of-thought-prompt/</loc>
+    <loc>http://localhost:1313/posts/chain-of-thought-prompt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/cot/</loc>
+    <loc>http://localhost:1313/tags/cot/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/gpt/</loc>
+    <loc>http://localhost:1313/tags/gpt/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/llm/</loc>
+    <loc>http://localhost:1313/tags/llm/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/tags/llm/"
+      href="http://localhost:1313/zh-cn/tags/llm/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/tags/llm/"
+      href="http://localhost:1313/tags/llm/"
     />
   </url>
   <url>
-    <loc>/posts/llm-parameters/</loc>
+    <loc>http://localhost:1313/posts/llm-parameters/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/self-consistency/</loc>
+    <loc>http://localhost:1313/posts/self-consistency/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/self-consistency/</loc>
+    <loc>http://localhost:1313/tags/self-consistency/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/flowchat/</loc>
+    <loc>http://localhost:1313/tags/flowchat/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/with-ai-to-get-a-nice-flow-chat/</loc>
+    <loc>http://localhost:1313/posts/with-ai-to-get-a-nice-flow-chat/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/few-shot/</loc>
+    <loc>http://localhost:1313/tags/few-shot/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/few-shot-prompt/</loc>
+    <loc>http://localhost:1313/posts/few-shot-prompt/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/zero-shot/</loc>
+    <loc>http://localhost:1313/tags/zero-shot/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/zero-shot-prompt/</loc>
+    <loc>http://localhost:1313/posts/zero-shot-prompt/</loc>
     <lastmod>2024-06-26T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/tags/space/</loc>
+    <loc>http://localhost:1313/tags/space/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/about/"
+      href="http://localhost:1313/zh-cn/about/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/about/"
+      href="http://localhost:1313/about/"
     />
   </url>
   <url>
-    <loc>/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/authors/"
+      href="http://localhost:1313/zh-cn/authors/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/authors/"
+      href="http://localhost:1313/authors/"
     />
   </url>
   <url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/categories/"
+      href="http://localhost:1313/zh-cn/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/categories/"
+      href="http://localhost:1313/categories/"
     />
   </url>
   <url>
-    <loc>/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/zh-cn/series/"
+      href="http://localhost:1313/zh-cn/series/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/series/"
+      href="http://localhost:1313/series/"
     />
   </url>
 </urlset>
