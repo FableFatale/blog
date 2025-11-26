@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>故障排除 on Rafael Yu&#39;s Blog</title>
+    <link>/zh-cn/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</link>
+    <description>Recent content in 故障排除 on Rafael Yu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Rafael Yu</copyright>
+    <lastBuildDate>Wed, 26 Nov 2025 21:11:06 +0800</lastBuildDate><atom:link href="/zh-cn/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>解决 Cloudflare Pages 上 CSS 样式丢失问题（Integrity 属性）</title>
+      <link>/zh-cn/posts/%E8%A7%A3%E5%86%B3-cloudflare-pages-%E4%B8%8A-css-%E6%A0%B7%E5%BC%8F%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98integrity-%E5%B1%9E%E6%80%A7/</link>
+      <pubDate>Wed, 26 Nov 2025 21:11:06 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/%E8%A7%A3%E5%86%B3-cloudflare-pages-%E4%B8%8A-css-%E6%A0%B7%E5%BC%8F%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98integrity-%E5%B1%9E%E6%80%A7/</guid>
+      <description>&lt;p&gt;当将 Hugo 网站（特别是使用 Blowfish 主题时）部署到 Cloudflare Pages 时，你可能会遇到网站加载后没有任何样式（CSS 丢失）的问题。浏览器控制台通常会显示与 &lt;strong&gt;子资源完整性 (SRI)&lt;/strong&gt; 校验失败相关的错误。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

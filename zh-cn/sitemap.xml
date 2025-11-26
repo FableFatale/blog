@@ -3,6 +3,126 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>/zh-cn/categories/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/categories/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/categories/"
+    />
+  </url>
+  <url>
+    <loc>/zh-cn/tags/cloudflare/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/cloudflare/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/cloudflare/"
+    />
+  </url>
+  <url>
+    <loc>/zh-cn/tags/css/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/css/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/css/"
+    />
+  </url>
+  <url>
+    <loc>/zh-cn/tags/hugo/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/hugo/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/hugo/"
+    />
+  </url>
+  <url>
+    <loc>/zh-cn/posts/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/posts/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/posts/"
+    />
+  </url>
+  <url>
+    <loc>/zh-cn/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/"
+    />
+  </url>
+  <url>
+    <loc>/zh-cn/tags/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/"
+    />
+  </url>
+  <url>
+    <loc>/zh-cn/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/zh-cn/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/zh-cn/posts/%E8%A7%A3%E5%86%B3-cloudflare-pages-%E4%B8%8A-css-%E6%A0%B7%E5%BC%8F%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98integrity-%E5%B1%9E%E6%80%A7/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/posts/fixing-missing-css-styles-on-cloudflare-pages-integrity-attribute-issue/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/posts/%E8%A7%A3%E5%86%B3-cloudflare-pages-%E4%B8%8A-css-%E6%A0%B7%E5%BC%8F%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98integrity-%E5%B1%9E%E6%80%A7/"
+    />
+  </url>
+  <url>
     <loc>/zh-cn/tags/ai/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -28,48 +148,6 @@
       rel="alternate"
       hreflang="zh-cn"
       href="/zh-cn/tags/llm/"
-    />
-  </url>
-  <url>
-    <loc>/zh-cn/posts/</loc>
-    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/posts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="/zh-cn/posts/"
-    />
-  </url>
-  <url>
-    <loc>/zh-cn/</loc>
-    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="/zh-cn/"
-    />
-  </url>
-  <url>
-    <loc>/zh-cn/tags/</loc>
-    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="/zh-cn/tags/"
     />
   </url>
   <url>
@@ -117,19 +195,6 @@
       rel="alternate"
       hreflang="zh-cn"
       href="/zh-cn/authors/"
-    />
-  </url>
-  <url>
-    <loc>/zh-cn/categories/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/categories/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="/zh-cn/categories/"
     />
   </url>
   <url>

@@ -3,20 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>/tags/cs/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/categories/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/categories/"
+    />
   </url>
   <url>
-    <loc>/tags/fewshot/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <loc>/tags/cloudflare/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/cloudflare/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/cloudflare/"
+    />
   </url>
   <url>
-    <loc>/posts/least-to-most-prompting/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <loc>/tags/css/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/css/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/css/"
+    />
+  </url>
+  <url>
+    <loc>/posts/fixing-missing-css-styles-on-cloudflare-pages-integrity-attribute-issue/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/posts/%E8%A7%A3%E5%86%B3-cloudflare-pages-%E4%B8%8A-css-%E6%A0%B7%E5%BC%8F%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98integrity-%E5%B1%9E%E6%80%A7/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/posts/fixing-missing-css-styles-on-cloudflare-pages-integrity-attribute-issue/"
+    />
+  </url>
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="/zh-cn/tags/hugo/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="/tags/hugo/"
+    />
   </url>
   <url>
     <loc>/posts/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
@@ -29,12 +87,8 @@
     />
   </url>
   <url>
-    <loc>/tags/prompt/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
-  </url>
-  <url>
     <loc>/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
@@ -47,12 +101,8 @@
     />
   </url>
   <url>
-    <loc>/tags/skills/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
-  </url>
-  <url>
     <loc>/tags/</loc>
-    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
@@ -63,6 +113,34 @@
       hreflang="en"
       href="/tags/"
     />
+  </url>
+  <url>
+    <loc>/categories/tech/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/troubleshooting/</loc>
+    <lastmod>2025-11-26T21:11:06+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/cs/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/fewshot/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/posts/least-to-most-prompting/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/prompt/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/skills/</loc>
+    <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>/tags/ai/</loc>
@@ -185,19 +263,6 @@
       rel="alternate"
       hreflang="en"
       href="/authors/"
-    />
-  </url>
-  <url>
-    <loc>/categories/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="/zh-cn/categories/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="/categories/"
     />
   </url>
   <url>
